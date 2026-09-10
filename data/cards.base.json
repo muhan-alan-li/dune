@@ -1,0 +1,4611 @@
+{
+  "source": "https://dunecardshub.com/api/cards",
+  "scope": "expansionName == 'Dune: Imperium'",
+  "fetched_at": "2026-09-10T07:43:12.700614+00:00",
+  "count": 135,
+  "note": "Agent/Reveal text comes from description_html. Null means API has no text; use image link to read card.",
+  "cards": [
+    {
+      "id": 210,
+      "name": "Sardaukar Legion",
+      "slug": "dune-imperium-sardaukar-legion",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 5,
+      "cost_text": "Sardaukar Legion cost 5 persuasion, has Emperor faction tag.",
+      "agent_text": "You can send an agent to Emperor or Landsraad locations. Recruit 2 troops.",
+      "reveal_text": "On reveal you gain 1 persuasion and deploy up to three troops from your garrison to the Conflict.",
+      "description_text_blocks": [
+        "Sardaukar Legion cost 5 persuasion, has Emperor faction tag.",
+        "You can send an agent to Emperor or Landsraad locations. Recruit 2 troops.",
+        "On reveal you gain 1 persuasion and deploy up to three troops from your garrison to the Conflict."
+      ],
+      "description_html": "<div><strong>Sardaukar Legion</strong> cost 5 persuasion, has Emperor faction tag.<br><br></div><div>You can send an agent to Emperor or Landsraad locations. Recruit 2 troops.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and deploy up to three troops from your garrison to the Conflict.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Troops",
+            "value": 2
+          },
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-sardaukar-legion.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-sardaukar-legion.webp"
+    },
+    {
+      "id": 211,
+      "name": "Dr. Yueh",
+      "slug": "dune-imperium-dr-yueh",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 1,
+      "cost_text": "Dr. Yueh cost 1 persuasion.",
+      "agent_text": "You can send an agent to City spaces. Draw a card from your deck.",
+      "reveal_text": "On reveal you gain 1 persuasion.",
+      "description_text_blocks": [
+        "Dr. Yueh cost 1 persuasion.",
+        "You can send an agent to City spaces. Draw a card from your deck.",
+        "On reveal you gain 1 persuasion."
+      ],
+      "description_html": "<div><strong>Dr. Yueh</strong> cost 1 persuasion.<br><br></div><div>You can send an agent to City spaces. Draw a card from your deck.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 1
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-dr-yueh.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-dr-yueh.webp"
+    },
+    {
+      "id": 212,
+      "name": "Assassination Mission",
+      "slug": "dune-imperium-assassination-mission",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 1,
+      "cost_text": "Assassination Mission cost 1 persuasion.",
+      "agent_text": "Card has no agent icons and agent box is empty.",
+      "reveal_text": "When this card is trashed: gain 4 solari.",
+      "description_text_blocks": [
+        "Assassination Mission cost 1 persuasion.",
+        "Card has no agent icons and agent box is empty.",
+        "When this card is trashed: gain 4 solari.",
+        "On reveal you gain 1 solari and 1 sword."
+      ],
+      "description_html": "<div><strong>Assassination Mission</strong> cost 1 persuasion.<br><br></div><div>Card has no agent icons and agent box is empty. <br><strong>When this card is trashed:</strong> gain 4 solari.<br><br></div><div><strong>On reveal</strong> you gain 1 solari and 1 sword.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 1
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Swords",
+            "value": 1
+          },
+          {
+            "name": "Solari",
+            "value": 1
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-assassination-mission.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-assassination-mission.webp"
+    },
+    {
+      "id": 213,
+      "name": "Sardaukar Infantry",
+      "slug": "dune-imperium-sardaukar-infantry",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 1,
+      "cost_text": "Sardaukar Infantry cost 1 persuasion, has Emperor faction tag.",
+      "agent_text": "Card has no agent icons and agent box is empty.",
+      "reveal_text": "On reveal you gain 1 persuasion and 2 swords.",
+      "description_text_blocks": [
+        "Sardaukar Infantry cost 1 persuasion, has Emperor faction tag.",
+        "Card has no agent icons and agent box is empty.",
+        "On reveal you gain 1 persuasion and 2 swords."
+      ],
+      "description_html": "<div><strong>Sardaukar Infantry</strong> cost 1 persuasion, has Emperor faction tag.<br><br></div><div>Card has no agent icons and agent box is empty.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and 2 swords.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 1
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-sardaukar-infantry.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-sardaukar-infantry.webp"
+    },
+    {
+      "id": 214,
+      "name": "Bene Gesserit Initiate",
+      "slug": "dune-imperium-bene-gesserit-initiate",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 3,
+      "cost_text": "Bene Gesserit Initiate cost 3 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to Landsraad, City, or Spice Trade spaces. Draw a card from your deck.",
+      "reveal_text": "On reveal you gain 1 persuasion.",
+      "description_text_blocks": [
+        "Bene Gesserit Initiate cost 3 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to Landsraad, City, or Spice Trade spaces. Draw a card from your deck.",
+        "On reveal you gain 1 persuasion."
+      ],
+      "description_html": "<div><strong>Bene Gesserit Initiate</strong> cost 3 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to Landsraad, City, or Spice Trade spaces. Draw a card from your deck.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-bene-gesserit-initiate.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-bene-gesserit-initiate.webp"
+    },
+    {
+      "id": 215,
+      "name": "Guild Administrator",
+      "slug": "dune-imperium-guild-administrator",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 2,
+      "cost_text": "Guild Administrator cost 2 persuasion, has Spacing Guild faction tag.",
+      "agent_text": "You can send an agent to Spacing Guild or Spice Trade spaces. You may trash one card from your hand, discard pile, or in play.",
+      "reveal_text": "On reveal you gain 1 persuasion.",
+      "description_text_blocks": [
+        "Guild Administrator cost 2 persuasion, has Spacing Guild faction tag.",
+        "You can send an agent to Spacing Guild or Spice Trade spaces. You may trash one card from your hand, discard pile, or in play.",
+        "On reveal you gain 1 persuasion."
+      ],
+      "description_html": "<div><strong>Guild Administrator</strong> cost 2 persuasion, has Spacing Guild faction tag.<br><br></div><div>You can send an agent to Spacing Guild or Spice Trade spaces. You may trash one card from your hand, discard pile, or in play.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 2
+          },
+          {
+            "name": "Faction: Spacing Guild",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Trash",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Spacing Guild",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-guild-administrator.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-guild-administrator.webp"
+    },
+    {
+      "id": 216,
+      "name": "The Voice",
+      "slug": "dune-imperium-the-voice",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 2,
+      "cost_text": "The Voice cost 2 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to City or Spice Trade spaces. Choose any board space. Opponents can't send their next Agents there this round.",
+      "reveal_text": "On reveal you gain 2 persuasion.",
+      "description_text_blocks": [
+        "The Voice cost 2 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to City or Spice Trade spaces. Choose any board space. Opponents can't send their next Agents there this round.",
+        "On reveal you gain 2 persuasion."
+      ],
+      "description_html": "<div><strong>The Voice</strong> cost 2 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to City or Spice Trade spaces. Choose any board space. Opponents can't send their next Agents there this round.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 2
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-the-voice.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-the-voice.webp"
+    },
+    {
+      "id": 217,
+      "name": "Scout",
+      "slug": "dune-imperium-scout",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 1,
+      "cost_text": "Scout cost 1 persuasion.",
+      "agent_text": "You can send an agent to City or Spice Trade spaces.",
+      "reveal_text": "On reveal you gain 1 persuasion, 1 sword and you may retreat up to two of your troops.",
+      "description_text_blocks": [
+        "Scout cost 1 persuasion.",
+        "You can send an agent to City or Spice Trade spaces.",
+        "On reveal you gain 1 persuasion, 1 sword and you may retreat up to two of your troops."
+      ],
+      "description_html": "<div><strong>Scout</strong> cost 1 persuasion.<br><br></div><div>You can send an agent to City or Spice Trade spaces.&nbsp;<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion, 1 sword and you may retreat up to two of your troops.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 1
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-scout.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-scout.webp"
+    },
+    {
+      "id": 218,
+      "name": "Imperial Spy",
+      "slug": "dune-imperium-imperial-spy",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 2,
+      "cost_text": "Imperial Spy cost 2 persuasion, has Emperor faction tag.",
+      "agent_text": "You can send an agent to Emperor locations. You may trash this card to draw 1 Intrigue.",
+      "reveal_text": "On reveal you gain 1 persuasion and 1 sword.",
+      "description_text_blocks": [
+        "Imperial Spy cost 2 persuasion, has Emperor faction tag.",
+        "You can send an agent to Emperor locations. You may trash this card to draw 1 Intrigue.",
+        "On reveal you gain 1 persuasion and 1 sword."
+      ],
+      "description_html": "<div><strong>Imperial Spy</strong> cost 2 persuasion, has Emperor faction tag.<br><br></div><div>You can send an agent to Emperor locations. You may trash this card to draw 1 Intrigue.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and 1 sword.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 2
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-imperial-spy.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-imperial-spy.webp"
+    },
+    {
+      "id": 219,
+      "name": "Bene Gesserit Sister",
+      "slug": "dune-imperium-bene-gesserit-sister",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 3,
+      "cost_text": "Bene Gesserit Sister cost 3 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to Bene Gesserit or Landsraad locations.",
+      "reveal_text": "On reveal you gain 2 persuasion or 2 swords.",
+      "description_text_blocks": [
+        "Bene Gesserit Sister cost 3 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to Bene Gesserit or Landsraad locations.",
+        "On reveal you gain 2 persuasion or 2 swords."
+      ],
+      "description_html": "<div><strong>Bene Gesserit Sister</strong> cost 3 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to Bene Gesserit or Landsraad locations.&nbsp;<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion or 2 swords.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          },
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          },
+          {
+            "name": "Swords",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-bene-gesserit-sister.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-bene-gesserit-sister.webp"
+    },
+    {
+      "id": 220,
+      "name": "Missionaria Protectiva",
+      "slug": "dune-imperium-missionaria-protectiva",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 1,
+      "cost_text": "Missionaria Protectiva cost 1 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to City spaces. If you have another Bene Gesserit card in play gain 1 Influence with any Faction.",
+      "reveal_text": "On reveal you gain 1 persuasion.",
+      "description_text_blocks": [
+        "Missionaria Protectiva cost 1 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to City spaces. If you have another Bene Gesserit card in play gain 1 Influence with any Faction.",
+        "On reveal you gain 1 persuasion."
+      ],
+      "description_html": "<div><strong>Missionaria Protectiva</strong> cost 1 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to City spaces. If you have another Bene Gesserit card in play gain 1 Influence with any Faction.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 1
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Gain one Influence",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-missionaria-protectiva.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-missionaria-protectiva.webp"
+    },
+    {
+      "id": 221,
+      "name": "Spice Hunter",
+      "slug": "dune-imperium-spice-hunter",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 2,
+      "cost_text": "Spice Hunter cost 2 persuasion, has Fremen faction tag.",
+      "agent_text": "You can send an agent to Fremen or Spice Trade spaces.",
+      "reveal_text": "On reveal you gain 1 persuasion, 1 sword and if you have Fremen Bond gain 1 spice.",
+      "description_text_blocks": [
+        "Spice Hunter cost 2 persuasion, has Fremen faction tag.",
+        "You can send an agent to Fremen or Spice Trade spaces.",
+        "On reveal you gain 1 persuasion, 1 sword and if you have Fremen Bond gain 1 spice."
+      ],
+      "description_html": "<div><strong>Spice Hunter</strong> cost 2 persuasion, has Fremen faction tag.<br><br></div><div>You can send an agent to Fremen or Spice Trade spaces.&nbsp;<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion, 1 sword and if you have Fremen Bond gain 1 spice.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 2
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-spice-hunter.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-spice-hunter.webp"
+    },
+    {
+      "id": 222,
+      "name": "Spice Smugglers",
+      "slug": "dune-imperium-spice-smugglers",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 2,
+      "cost_text": "Spice Smugglers cost 2 persuasion, has Spacing Guild faction tag.",
+      "agent_text": "You can send an agent to City spaces. You may pay 2 spice to gain 1 Influence with Spacing Guild faction and 3 solari.",
+      "reveal_text": "On reveal you gain 1 persuasion and 1 sword.",
+      "description_text_blocks": [
+        "Spice Smugglers cost 2 persuasion, has Spacing Guild faction tag.",
+        "You can send an agent to City spaces. You may pay 2 spice to gain 1 Influence with Spacing Guild faction and 3 solari.",
+        "On reveal you gain 1 persuasion and 1 sword."
+      ],
+      "description_html": "<div><strong>Spice Smugglers</strong> cost 2 persuasion, has Spacing Guild faction tag.<br><br></div><div>You can send an agent to City spaces. You may pay 2 spice to gain 1 Influence with Spacing Guild faction and 3 solari.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and 1 sword.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 2
+          },
+          {
+            "name": "Faction: Spacing Guild",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Solari",
+            "value": 3
+          },
+          {
+            "name": "Spacing Guild bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-spice-smugglers.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-spice-smugglers.webp"
+    },
+    {
+      "id": 223,
+      "name": "Fedaykin Death Commando",
+      "slug": "dune-imperium-fedaykin-death-commando",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 3,
+      "cost_text": "Fedaykin Death Commando cost 3 persuasion, has Fremen faction tag.",
+      "agent_text": "You can send an agent to City or Spice Trade spaces. You may trash one card from your hand, discard pile, or in play.",
+      "reveal_text": "On reveal you gain 1 persuasion and if you have Fremen Bond gain 3 swords.",
+      "description_text_blocks": [
+        "Fedaykin Death Commando cost 3 persuasion, has Fremen faction tag.",
+        "You can send an agent to City or Spice Trade spaces. You may trash one card from your hand, discard pile, or in play.",
+        "On reveal you gain 1 persuasion and if you have Fremen Bond gain 3 swords."
+      ],
+      "description_html": "<div><strong>Fedaykin Death Commando</strong> cost 3 persuasion, has Fremen faction tag.<br><br></div><div>You can send an agent to City or Spice Trade spaces. You may trash one card from your hand, discard pile, or in play.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and if you have Fremen Bond gain 3 swords.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 3
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Trash",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-fedaykin-death-commando.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-fedaykin-death-commando.webp"
+    },
+    {
+      "id": 224,
+      "name": "Gene Manipulation",
+      "slug": "dune-imperium-gene-manipulation",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 3,
+      "cost_text": "Gene Manipulation cost 3 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to Landsraad or City spaces. You may trash one card from your hand, discard pile, or in play and if you have another Bene Gesserit card in play gain 2 spice.",
+      "reveal_text": "On reveal you gain 2 persuasion.",
+      "description_text_blocks": [
+        "Gene Manipulation cost 3 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to Landsraad or City spaces. You may trash one card from your hand, discard pile, or in play and if you have another Bene Gesserit card in play gain 2 spice.",
+        "On reveal you gain 2 persuasion."
+      ],
+      "description_html": "<div><strong>Gene Manipulation</strong> cost 3 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to Landsraad or City spaces. You may trash one card from your hand, discard pile, or in play and if you have another Bene Gesserit card in play gain 2 spice.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Trash",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-gene-manipulation.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-gene-manipulation.webp"
+    },
+    {
+      "id": 225,
+      "name": "Guild Bankers",
+      "slug": "dune-imperium-guild-bankers",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 3,
+      "cost_text": "Guild Bankers cost 3 persuasion, has Spacing Guild faction tag.",
+      "agent_text": "You can send an agent to Emperor, Spacing Guild, or Landsraad locations.",
+      "reveal_text": "On reveal The Spice Must Flow costs 3 less persuasion to acquire this turn.",
+      "description_text_blocks": [
+        "Guild Bankers cost 3 persuasion, has Spacing Guild faction tag.",
+        "You can send an agent to Emperor, Spacing Guild, or Landsraad locations.",
+        "On reveal The Spice Must Flow costs 3 less persuasion to acquire this turn."
+      ],
+      "description_html": "<div><strong>Guild Bankers</strong> cost 3 persuasion, has Spacing Guild faction tag.<br><br></div><div>You can send an agent to Emperor, Spacing Guild, or Landsraad locations.<br><br></div><div><strong>On reveal</strong> The Spice Must Flow costs 3 less persuasion to acquire this turn.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Spacing Guild",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spacing Guild",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-guild-bankers.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-guild-bankers.webp"
+    },
+    {
+      "id": 226,
+      "name": "CHOAM Directorship",
+      "slug": "dune-imperium-choam-directorship",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 8,
+      "cost_text": "CHOAM Directorship cost 8 persuasion.",
+      "agent_text": "On acquire: gain 1 Influence with Emperor faction, 1 Influence with Spacing Guild faction, 1 Influence with Bene Gesserit faction, and 1 Influence with Fremen faction.",
+      "reveal_text": "Card has no agent icons and agent box is empty.",
+      "description_text_blocks": [
+        "CHOAM Directorship cost 8 persuasion.",
+        "On acquire: gain 1 Influence with Emperor faction, 1 Influence with Spacing Guild faction, 1 Influence with Bene Gesserit faction, and 1 Influence with Fremen faction.",
+        "Card has no agent icons and agent box is empty.",
+        "On reveal you gain 3 solari."
+      ],
+      "description_html": "<div><strong>CHOAM Directorship</strong> cost 8 persuasion. <br><strong>On acquire:</strong> gain 1 Influence with Emperor faction, 1 Influence with Spacing Guild faction, 1 Influence with Bene Gesserit faction, and 1 Influence with Fremen faction.<br><br></div><div>Card has no agent icons and agent box is empty.<br><br></div><div><strong>On reveal</strong> you gain 3 solari.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 8
+          },
+          {
+            "name": "Emperor bump",
+            "value": null
+          },
+          {
+            "name": "Spacing Guild bump",
+            "value": null
+          },
+          {
+            "name": "Bene Geserit bump",
+            "value": null
+          },
+          {
+            "name": "Freman bump",
+            "value": null
+          },
+          {
+            "name": "Acquire bonus",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Solari",
+            "value": 3
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-choam-directorship.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-choam-directorship.webp"
+    },
+    {
+      "id": 227,
+      "name": "Crysknife",
+      "slug": "dune-imperium-crysknife",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 3,
+      "cost_text": "Crysknife cost 3 persuasion, has Fremen faction tag.",
+      "agent_text": "You can send an agent to Fremen or Spice Trade spaces. Gain 1 solari.",
+      "reveal_text": "On reveal you gain 1 sword and if you have Fremen Bond gain 1 Influence with Fremen faction.",
+      "description_text_blocks": [
+        "Crysknife cost 3 persuasion, has Fremen faction tag.",
+        "You can send an agent to Fremen or Spice Trade spaces. Gain 1 solari.",
+        "On reveal you gain 1 sword and if you have Fremen Bond gain 1 Influence with Fremen faction."
+      ],
+      "description_html": "<div><strong>Crysknife</strong> cost 3 persuasion, has Fremen faction tag.<br><br></div><div>You can send an agent to Fremen or Spice Trade spaces. Gain 1 solari.<br><br></div><div><strong>On reveal</strong> you gain 1 sword and if you have Fremen Bond gain 1 Influence with Fremen faction.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          },
+          {
+            "name": "Solari",
+            "value": 1
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Swords",
+            "value": 1
+          },
+          {
+            "name": "Freman bump",
+            "value": null
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-crysknife.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-crysknife.webp"
+    },
+    {
+      "id": 228,
+      "name": "Chani",
+      "slug": "dune-imperium-chani",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 5,
+      "cost_text": "Chani cost 5 persuasion, has Fremen faction tag.",
+      "agent_text": "On acquire: gain 1 water.",
+      "reveal_text": "You can send an agent to Fremen, City, or Spice Trade spaces.",
+      "description_text_blocks": [
+        "Chani cost 5 persuasion, has Fremen faction tag.",
+        "On acquire: gain 1 water.",
+        "You can send an agent to Fremen, City, or Spice Trade spaces.",
+        "On reveal you gain 2 persuasion and you may retreat any number of your troops."
+      ],
+      "description_html": "<div><strong>Chani</strong> cost 5 persuasion, has Fremen faction tag. <br><strong>On acquire:</strong> gain 1 water.<br><br></div><div>You can send an agent to Fremen, City, or Spice Trade spaces.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion and you may retreat any number of your troops.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          },
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          },
+          {
+            "name": "Acquire bonus",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-chani.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-chani.webp"
+    },
+    {
+      "id": 229,
+      "name": "Space Travel",
+      "slug": "dune-imperium-space-travel",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 3,
+      "cost_text": "Space Travel cost 3 persuasion, has Spacing Guild faction tag.",
+      "agent_text": "You can send an agent to Spacing Guild or Spice Trade spaces. Draw 1 card from your deck.",
+      "reveal_text": "On reveal you gain 2 persuasion.",
+      "description_text_blocks": [
+        "Space Travel cost 3 persuasion, has Spacing Guild faction tag.",
+        "You can send an agent to Spacing Guild or Spice Trade spaces. Draw 1 card from your deck.",
+        "On reveal you gain 2 persuasion."
+      ],
+      "description_html": "<div><strong>Space Travel</strong> cost 3 persuasion, has Spacing Guild faction tag.<br><br></div><div>You can send an agent to Spacing Guild or Spice Trade spaces. Draw 1 card from your deck.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Spacing Guild",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Spacing Guild",
+            "value": null
+          },
+          {
+            "name": "Draw card",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-space-travel.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-space-travel.webp"
+    },
+    {
+      "id": 230,
+      "name": "Duncan Idaho",
+      "slug": "dune-imperium-duncan-idaho",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 4,
+      "cost_text": "Duncan Idaho cost 4 persuasion.",
+      "agent_text": "You can send an agent to City spaces.",
+      "reveal_text": "You may pay 1 water to recruit 1 troop and draw 1 card from your deck.",
+      "description_text_blocks": [
+        "Duncan Idaho cost 4 persuasion.",
+        "You can send an agent to City spaces.",
+        "You may pay 1 water to recruit 1 troop and draw 1 card from your deck.",
+        "On reveal you gain 1 water and 3 swords."
+      ],
+      "description_html": "<div><strong>Duncan Idaho</strong> cost 4 persuasion.<br><br></div><div>You can send an agent to City spaces.&nbsp;<br>You may pay 1 water to recruit 1 troop and draw 1 card from your deck.<br><br></div><div><strong>On reveal</strong> you gain 1 water and 3 swords.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 3
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Troops",
+            "value": 1
+          },
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-duncan-idaho.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-duncan-idaho.webp"
+    },
+    {
+      "id": 231,
+      "name": "Shifting Allegiances",
+      "slug": "dune-imperium-shifting-allegiances",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 3,
+      "cost_text": "Shifting Allegiances cost 3 persuasion.",
+      "agent_text": "You can send an agent to Landsraad or Spice Trade spaces. You may lose 1 Influence on any one of the four Factions and pay 2 spice to gain two Influence on any one of the four Factions (When gaining two Influence, you can’t choose two different Factions)",
+      "reveal_text": "On reveal you gain 2 persuasion.",
+      "description_text_blocks": [
+        "Shifting Allegiances cost 3 persuasion.",
+        "You can send an agent to Landsraad or Spice Trade spaces. You may lose 1 Influence on any one of the four Factions and pay 2 spice to gain two Influence on any one of the four Factions (When gaining two Influence, you can’t choose two different Factions)",
+        "On reveal you gain 2 persuasion."
+      ],
+      "description_html": "<div><strong>Shifting Allegiances</strong> cost 3 persuasion.<br><br></div><div>You can send an agent to Landsraad or Spice Trade spaces. You may lose 1 Influence on any one of the four Factions and pay 2 spice to gain two Influence on any one of the four Factions (When gaining two Influence, you can’t choose two different Factions)<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          },
+          {
+            "name": "Lose one Influence",
+            "value": null
+          },
+          {
+            "name": "Gain one Influence",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-shifting-allegiances.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-shifting-allegiances.webp"
+    },
+    {
+      "id": 232,
+      "name": "Kwisatz Haderach",
+      "slug": "dune-imperium-kwisatz-haderach",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 8,
+      "cost_text": "Kwisatz Haderach cost 8 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You may play this card to take an Agent turn even if you have no Agents left in your supply, as it lets you send an Agent that is already on a board space. You may send an Agent back to the space that it was just on.",
+      "reveal_text": "If a board space can be used only once per game (High Council, Swordmaster), you can’t use Kwisatz Haderach to send an Agent there more than once. You can’t overcome The Voice and send an Agent to a board space where you can’t send an Agent.",
+      "description_text_blocks": [
+        "Kwisatz Haderach cost 8 persuasion, has Bene Gesserit faction tag.",
+        "You may play this card to take an Agent turn even if you have no Agents left in your supply, as it lets you send an Agent that is already on a board space. You may send an Agent back to the space that it was just on.",
+        "If a board space can be used only once per game (High Council, Swordmaster), you can’t use Kwisatz Haderach to send an Agent there more than once. You can’t overcome The Voice and send an Agent to a board space where you can’t send an Agent.",
+        "If you move an agent away from a space with a Maker icon, and that space remains empty until Phase 4, bonus spice does accumulate there.",
+        "On reveal card has no reveal effects."
+      ],
+      "description_html": "<div><strong>Kwisatz Haderach</strong> cost 8 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You may play this card to take an Agent turn even if you have no Agents left in your supply, as it lets you send an Agent that is already on a board space. You may send an Agent back to the space that it was just on.</div><div><br>If a board space can be used only once per game (High Council, Swordmaster), you can’t use Kwisatz Haderach to send an Agent there more than once. You can’t overcome The Voice and send an Agent to a board space where you can’t send an Agent.<br><br></div><div>If you move an agent away from a space with a Maker icon, and that space remains empty until Phase 4, bonus spice does accumulate there.</div><div><br></div><div><strong>On reveal</strong> card has no reveal effects.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 8
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spacing Guild",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-kwisatz-haderach.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-kwisatz-haderach.webp"
+    },
+    {
+      "id": 233,
+      "name": "Sietch Reverend Mother",
+      "slug": "dune-imperium-sietch-reverend-mother",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 4,
+      "cost_text": "Sietch Reverend Mother cost 4 persuasion, has Bene Gesserit and Fremen faction tags.",
+      "agent_text": "You can send an agent to Bene Gesserit or Fremen locations. You may trash one card from your hand, discard pile, or in play.",
+      "reveal_text": "On reveal if you have Fremen Bond: gain 3 persuasion and 1 spice.",
+      "description_text_blocks": [
+        "Sietch Reverend Mother cost 4 persuasion, has Bene Gesserit and Fremen faction tags.",
+        "You can send an agent to Bene Gesserit or Fremen locations. You may trash one card from your hand, discard pile, or in play.",
+        "On reveal if you have Fremen Bond: gain 3 persuasion and 1 spice."
+      ],
+      "description_html": "<div><strong>Sietch Reverend Mother</strong> cost 4 persuasion, has Bene Gesserit and Fremen faction tags.<br><br></div><div>You can send an agent to Bene Gesserit or Fremen locations. You may trash one card from your hand, discard pile, or in play.<br><br></div><div><strong>On reveal</strong> if you have Fremen Bond: gain 3 persuasion and 1 spice.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 3
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Trash",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-sietch-reverend-mother.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-sietch-reverend-mother.webp"
+    },
+    {
+      "id": 234,
+      "name": "Firm Grip",
+      "slug": "dune-imperium-firm-grip",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 4,
+      "cost_text": "Firm Grip cost 4 persuasion, has Emperor faction tag.",
+      "agent_text": "You can send an agent to Emperor or Landsraad spaces.",
+      "reveal_text": "You may pay 2 solari to choose one: gain 1 Influence with Spacing Guild, gain 1 Influence with Bene Gesserit, or gain 1 Influence with Fremen.",
+      "description_text_blocks": [
+        "Firm Grip cost 4 persuasion, has Emperor faction tag.",
+        "You can send an agent to Emperor or Landsraad spaces.",
+        "You may pay 2 solari to choose one: gain 1 Influence with Spacing Guild, gain 1 Influence with Bene Gesserit, or gain 1 Influence with Fremen.",
+        "On reveal if you have Emperor Alliance you gain 4 persuasion."
+      ],
+      "description_html": "<div><strong>Firm Grip</strong> cost 4 persuasion, has Emperor faction tag.<br><br></div><div>You can send an agent to Emperor or Landsraad spaces.&nbsp;<br>You may pay 2 solari to choose one: gain 1 Influence with Spacing Guild, gain 1 Influence with Bene Gesserit, or gain 1 Influence with Fremen.<br><br></div><div><strong>On reveal</strong> if you have Emperor Alliance you gain 4 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 4
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Spacing Guild bump",
+            "value": null
+          },
+          {
+            "name": "Bene Geserit bump",
+            "value": null
+          },
+          {
+            "name": "Freman bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-form-grip.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-form-grip.webp"
+    },
+    {
+      "id": 235,
+      "name": "Smuggler's Thopter",
+      "slug": "dune-imperium-smuggler-s-thopter",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 4,
+      "cost_text": "Smuggler's Thopter cost 4 persuasion, has Spacing Guild faction tag.",
+      "agent_text": "You can send an agent to Spice Trade spaces.",
+      "reveal_text": "If you have 2 Influence with Spacing Guild faction: draw 2 cards from your deck.",
+      "description_text_blocks": [
+        "Smuggler's Thopter cost 4 persuasion, has Spacing Guild faction tag.",
+        "You can send an agent to Spice Trade spaces.",
+        "If you have 2 Influence with Spacing Guild faction: draw 2 cards from your deck.",
+        "On reveal you gain 1 persuasion and 1 spice."
+      ],
+      "description_html": "<div><strong>Smuggler's Thopter</strong> cost 4 persuasion, has Spacing Guild faction tag.<br><br></div><div>You can send an agent to Spice Trade spaces.&nbsp;<br>If you have 2 Influence with Spacing Guild faction: draw 2 cards from your deck.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and 1 spice.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          },
+          {
+            "name": "Faction: Spacing Guild",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 2
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-smuggler-s-thopter.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-smuggler-s-thopter.webp"
+    },
+    {
+      "id": 236,
+      "name": "Carryall",
+      "slug": "dune-imperium-carryall",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 5,
+      "cost_text": "Carryall cost 5 persuasion.",
+      "agent_text": "You can send an agent to Spice Trade spaces. Double the base (not bonus) spice you harvest with this Agent.",
+      "reveal_text": "On reveal you gain 1 persuasion and 2 spice.",
+      "description_text_blocks": [
+        "Carryall cost 5 persuasion.",
+        "You can send an agent to Spice Trade spaces. Double the base (not bonus) spice you harvest with this Agent.",
+        "On reveal you gain 1 persuasion and 2 spice."
+      ],
+      "description_html": "<div><strong>Carryall</strong> cost 5 persuasion.<br><br></div><div>You can send an agent to Spice Trade spaces. Double the base (not bonus) spice you harvest with this Agent.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and 2 spice.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-carryall.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-carryall.webp"
+    },
+    {
+      "id": 237,
+      "name": "Gun Thopter",
+      "slug": "dune-imperium-gun-thopter",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 4,
+      "cost_text": "Gun Thopter cost 4 persuasion.",
+      "agent_text": "You can send an agent to City or Spice Trade spaces. Each opponent loses one garrisoned troop.",
+      "reveal_text": "On reveal gain 3 swords and you may deploy a troop from your garrison to the Conflict.",
+      "description_text_blocks": [
+        "Gun Thopter cost 4 persuasion.",
+        "You can send an agent to City or Spice Trade spaces. Each opponent loses one garrisoned troop.",
+        "On reveal gain 3 swords and you may deploy a troop from your garrison to the Conflict."
+      ],
+      "description_html": "<div><strong>Gun Thopter</strong> cost 4 persuasion.<br><br></div><div>You can send an agent to City or Spice Trade spaces. Each opponent loses one garrisoned troop.<br><br></div><div><strong>On reveal</strong> gain 3 swords and you may deploy a troop from your garrison to the Conflict.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Swords",
+            "value": 3
+          },
+          {
+            "name": "Troops",
+            "value": 1
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-gun-thopter.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-gun-thopter.webp"
+    },
+    {
+      "id": 238,
+      "name": "Guild Ambassador",
+      "slug": "dune-imperium-guild-ambassador",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 4,
+      "cost_text": "Guild Ambassador cost 4 persuasion, has Spacing Guild faction tag.",
+      "agent_text": "You can send an agent to Landsraad spaces.",
+      "reveal_text": "Gain 1 Influence with Spacing Guild or gain 2 spice.",
+      "description_text_blocks": [
+        "Guild Ambassador cost 4 persuasion, has Spacing Guild faction tag.",
+        "You can send an agent to Landsraad spaces.",
+        "Gain 1 Influence with Spacing Guild or gain 2 spice.",
+        "On reveal if you have Spacing Guild Alliance you may pay 3 spice to gain 1 victory point."
+      ],
+      "description_html": "<div><strong>Guild Ambassador</strong> cost 4 persuasion, has Spacing Guild faction tag.<br><br></div><div>You can send an agent to Landsraad spaces. <br>Gain 1 Influence with Spacing Guild <strong>or</strong> gain 2 spice.<br><br></div><div><strong>On reveal</strong> if you have Spacing Guild Alliance you may pay 3 spice to gain 1 victory point.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          },
+          {
+            "name": "Faction: Spacing Guild",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          },
+          {
+            "name": "Spacing Guild bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-guild-ambassador.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-guild-ambassador.webp"
+    },
+    {
+      "id": 239,
+      "name": "Test of Humanity",
+      "slug": "dune-imperium-test-of-humanity",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 3,
+      "cost_text": "Test of Humanity cost 3 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to Bene Gesserit, Landsraad, or City spaces.",
+      "reveal_text": "Each opponent chooses: Discard a card or Lose a deployed troop.",
+      "description_text_blocks": [
+        "Test of Humanity cost 3 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to Bene Gesserit, Landsraad, or City spaces.",
+        "Each opponent chooses: Discard a card or Lose a deployed troop.",
+        "On reveal you gain 2 persuasion."
+      ],
+      "description_html": "<div><strong>Test of Humanity</strong> cost 3 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to Bene Gesserit, Landsraad, or City spaces. <br>Each opponent chooses: Discard a card <strong>or</strong> Lose a deployed troop.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 3
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-test-of-humanity.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-test-of-humanity.webp"
+    },
+    {
+      "id": 240,
+      "name": "Fremen Camp",
+      "slug": "dune-imperium-fremen-camp",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": 4,
+      "cost_text": "Fremen Camp cost 4 persuasion, has Fremen faction tag.",
+      "agent_text": "You can send an agent to Spice Trade spaces. You may pay 2 spice to recruit 3 troops.",
+      "reveal_text": "On reveal you gain 2 persuasion and 1 sword.",
+      "description_text_blocks": [
+        "Fremen Camp cost 4 persuasion, has Fremen faction tag.",
+        "You can send an agent to Spice Trade spaces. You may pay 2 spice to recruit 3 troops.",
+        "On reveal you gain 2 persuasion and 1 sword."
+      ],
+      "description_html": "<div><strong>Fremen Camp</strong> cost 4 persuasion, has Fremen faction tag.<br><br></div><div>You can send an agent to Spice Trade spaces. You may pay 2 spice to recruit 3 troops.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion and 1 sword.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          },
+          {
+            "name": "Troops",
+            "value": 3
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-fremen-camp.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-fremen-camp.webp"
+    },
+    {
+      "id": 241,
+      "name": "Opulence",
+      "slug": "dune-imperium-opulence",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 6,
+      "cost_text": "Opulence cost 6 persuasion, has Emperor faction tag.",
+      "agent_text": "You can send an agent to Emperor spaces. Gain 3 solari.",
+      "reveal_text": "On reveal you gain 1 persuasion and you may pay 6 solari to gain 1 victory point.",
+      "description_text_blocks": [
+        "Opulence cost 6 persuasion, has Emperor faction tag.",
+        "You can send an agent to Emperor spaces. Gain 3 solari.",
+        "On reveal you gain 1 persuasion and you may pay 6 solari to gain 1 victory point."
+      ],
+      "description_html": "<div><strong>Opulence</strong> cost 6 persuasion, has Emperor faction tag.<br><br></div><div>You can send an agent to Emperor spaces. Gain 3 solari.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and you may pay 6 solari to gain 1 victory point.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 6
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Victory Point",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Solari",
+            "value": 3
+          },
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-opulence.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-opulence.webp"
+    },
+    {
+      "id": 242,
+      "name": "Lady Jessica",
+      "slug": "dune-imperium-lady-jessica",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 7,
+      "cost_text": "Lady Jessica cost 7 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "On acquire: Gain 1 Influence on any one of the four Factions.",
+      "reveal_text": "You can send an agent to Bene Gesserit, Landsraad, City, or Spice Trade spaces. Draw 2 cards from your deck.",
+      "description_text_blocks": [
+        "Lady Jessica cost 7 persuasion, has Bene Gesserit faction tag.",
+        "On acquire: Gain 1 Influence on any one of the four Factions.",
+        "You can send an agent to Bene Gesserit, Landsraad, City, or Spice Trade spaces. Draw 2 cards from your deck.",
+        "On reveal you gain 3 persuasion and 1 sword."
+      ],
+      "description_html": "<div><strong>Lady Jessica</strong> cost 7 persuasion, has Bene Gesserit faction tag.<br><strong>On acquire: </strong>Gain 1 Influence on any one of the four Factions.<br><br></div><div>You can send an agent to Bene Gesserit, Landsraad, City, or Spice Trade spaces. Draw 2 cards from your deck.<br><br></div><div><strong>On reveal</strong> you gain 3 persuasion and 1 sword.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 7
+          },
+          {
+            "name": "Acquire bonus",
+            "value": null
+          },
+          {
+            "name": "Gain one Influence",
+            "value": null
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          },
+          {
+            "name": "Draw card",
+            "value": 2
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 3
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-lady-jessica.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-lady-jessica.webp"
+    },
+    {
+      "id": 243,
+      "name": "Stilgar",
+      "slug": "dune-imperium-stilgar",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 5,
+      "cost_text": "Stilgar cost 5 persuasion, has Fremen faction tag.",
+      "agent_text": "You can send an agent to Fremen, City, or Spice Trade spaces. Gain 1 water.",
+      "reveal_text": "On reveal you gain 2 persuasion and 3 swords.",
+      "description_text_blocks": [
+        "Stilgar cost 5 persuasion, has Fremen faction tag.",
+        "You can send an agent to Fremen, City, or Spice Trade spaces. Gain 1 water.",
+        "On reveal you gain 2 persuasion and 3 swords."
+      ],
+      "description_html": "<div><strong>Stilgar</strong> cost 5 persuasion, has Fremen faction tag.<br><br></div><div>You can send an agent to Fremen, City, or Spice Trade spaces. Gain 1 water.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion and 3 swords.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          },
+          {
+            "name": "Swords",
+            "value": 3
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-stilgar.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-stilgar.webp"
+    },
+    {
+      "id": 244,
+      "name": "Piter De Vries",
+      "slug": "dune-imperium-piter-de-vries",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 5,
+      "cost_text": "Piter De Vries cost 5 persuasion.",
+      "agent_text": "You can send an agent to Landsraad or City spaces. Draw 1 Intrigue.",
+      "reveal_text": "On reveal you gain 3 persuasion and 1 sword.",
+      "description_text_blocks": [
+        "Piter De Vries cost 5 persuasion.",
+        "You can send an agent to Landsraad or City spaces. Draw 1 Intrigue.",
+        "On reveal you gain 3 persuasion and 1 sword."
+      ],
+      "description_html": "<div><strong>Piter De Vries</strong> cost 5 persuasion.<br><br></div><div>You can send an agent to Landsraad or City spaces. Draw 1 Intrigue.<br><br></div><div><strong>On reveal</strong> you gain 3 persuasion and 1 sword.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 3
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Landsraad",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-piter-de-vries.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-piter-de-vries.webp"
+    },
+    {
+      "id": 245,
+      "name": "Gurney Halleck",
+      "slug": "dune-imperium-gurney-halleck",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 6,
+      "cost_text": "Gurney Halleck cost 6 persuasion.",
+      "agent_text": "You can send an agent to City spaces. Recruit 2 troops and draw 1 card from your deck.",
+      "reveal_text": "On reveal you gain 2 persuasion and you may pay 3 solari to recruit 2 troops. You may deploy these troops to the Conflict.",
+      "description_text_blocks": [
+        "Gurney Halleck cost 6 persuasion.",
+        "You can send an agent to City spaces. Recruit 2 troops and draw 1 card from your deck.",
+        "On reveal you gain 2 persuasion and you may pay 3 solari to recruit 2 troops. You may deploy these troops to the Conflict."
+      ],
+      "description_html": "<div><strong>Gurney Halleck</strong> cost 6 persuasion.<br><br></div><div>You can send an agent to City spaces. Recruit 2 troops and draw 1 card from your deck.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion <strong>and</strong>&nbsp;you may pay 3 solari to recruit 2 troops. You may deploy these troops to the Conflict.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 6
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Troops",
+            "value": 2
+          },
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-gurney-halleck.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-gurney-halleck.webp"
+    },
+    {
+      "id": 246,
+      "name": "Thufir Hawat",
+      "slug": "dune-imperium-thufir-hawat",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 5,
+      "cost_text": "Thufir Hawat cost 5 persuasion.",
+      "agent_text": "You can send an agent to Emperor, Spacing Guild, Bene Gesserit, Fremen, City, or Spice Trade spaces. Draw 1 card from your deck.",
+      "reveal_text": "On reveal you gain 1 persuasion and draw 1 Intrigue.",
+      "description_text_blocks": [
+        "Thufir Hawat cost 5 persuasion.",
+        "You can send an agent to Emperor, Spacing Guild, Bene Gesserit, Fremen, City, or Spice Trade spaces. Draw 1 card from your deck.",
+        "On reveal you gain 1 persuasion and draw 1 Intrigue."
+      ],
+      "description_html": "<div><strong>Thufir Hawat</strong> cost 5 persuasion.<br><br></div><div>You can send an agent to Emperor, Spacing Guild, Bene Gesserit, Fremen, City, or Spice Trade spaces. Draw 1 card from your deck.<br><br></div><div><strong>On reveal</strong> you gain 1 persuasion and draw 1 Intrigue.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spacing Guild",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-thufir-hawat.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-thufir-hawat.webp"
+    },
+    {
+      "id": 247,
+      "name": "Other Memory",
+      "slug": "dune-imperium-other-memory",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 4,
+      "cost_text": "Other Memory cost 4 persuasion, has Bene Gesserit faction tag.",
+      "agent_text": "You can send an agent to City or Spice Trade spaces. Draw 1 card from your deck or Draw a Bene Gesserit card from your discard pile.",
+      "reveal_text": "On reveal you gain 2 persuasion.",
+      "description_text_blocks": [
+        "Other Memory cost 4 persuasion, has Bene Gesserit faction tag.",
+        "You can send an agent to City or Spice Trade spaces. Draw 1 card from your deck or Draw a Bene Gesserit card from your discard pile.",
+        "On reveal you gain 2 persuasion."
+      ],
+      "description_html": "<div><strong>Other Memory</strong> cost 4 persuasion, has Bene Gesserit faction tag.<br><br></div><div>You can send an agent to City or Spice Trade spaces. Draw 1 card from your deck <strong>or</strong> Draw a Bene Gesserit card from your discard pile.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 4
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          },
+          {
+            "name": "Draw card",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-other-memory.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-other-memory.webp"
+    },
+    {
+      "id": 248,
+      "name": "Liet Kynes",
+      "slug": "dune-imperium-liet-kynes",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 5,
+      "cost_text": "Liet Kynes cost 5 persuasion, has Emperor and Fremen faction tags.",
+      "agent_text": "On acquire: gain 1 Influence on Emperor faction.",
+      "reveal_text": "You can send an agent to Fremen or City spaces.",
+      "description_text_blocks": [
+        "Liet Kynes cost 5 persuasion, has Emperor and Fremen faction tags.",
+        "On acquire: gain 1 Influence on Emperor faction.",
+        "You can send an agent to Fremen or City spaces.",
+        "On reveal you gain 2 persuasion for each Fremen card you have in play (including this one)."
+      ],
+      "description_html": "<div><strong>Liet Kynes</strong> cost 5 persuasion, has Emperor and Fremen faction tags.<br>On acquire: gain 1 Influence on Emperor faction.&nbsp;<br><br></div><div>You can send an agent to Fremen or City spaces.&nbsp;<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion for each Fremen card you have in play (including this one).</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 5
+          },
+          {
+            "name": "Acquire bonus",
+            "value": null
+          },
+          {
+            "name": "Emperor bump",
+            "value": null
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-liet-kynes.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-liet-kynes.webp"
+    },
+    {
+      "id": 249,
+      "name": "Reverend Mother Mohiam",
+      "slug": "dune-imperium-reverend-mother-mohiam",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 6,
+      "cost_text": "Reverend Mother Mohiam cost 6 persuasion, has Emperor and Bene Gesserit faction tags.",
+      "agent_text": "You can send an agent to Emperor or Bene Gesserit locations. If you have another Bene Gesserit card in play, each opponent discards two cards.",
+      "reveal_text": "On reveal you gain 2 persuasion and 2 spice.",
+      "description_text_blocks": [
+        "Reverend Mother Mohiam cost 6 persuasion, has Emperor and Bene Gesserit faction tags.",
+        "You can send an agent to Emperor or Bene Gesserit locations. If you have another Bene Gesserit card in play, each opponent discards two cards.",
+        "On reveal you gain 2 persuasion and 2 spice."
+      ],
+      "description_html": "<div><strong>Reverend Mother Mohiam</strong> cost 6 persuasion, has Emperor and Bene Gesserit faction tags.<br><br></div><div>You can send an agent to Emperor or Bene Gesserit locations. If you have another Bene Gesserit card in play, each opponent discards two cards.<br><br></div><div><strong>On reveal</strong> you gain 2 persuasion and 2 spice.</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 6
+          },
+          {
+            "name": "Faction: Emperor",
+            "value": null
+          },
+          {
+            "name": "Faction: Bene Geserit",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 2
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-reverend-mother-mohiam.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-reverend-mother-mohiam.webp"
+    },
+    {
+      "id": 250,
+      "name": "Power Play",
+      "slug": "dune-imperium-power-play",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 3,
+      "persuasion_cost": null,
+      "cost_text": "Power Play cost 5 persuasion.",
+      "agent_text": "You can send an agent to Emperor, Spacing Guild, Bene Gesserit, or Fremen locations. Gain two Influence instead of one. Trash this card.",
+      "reveal_text": "On reveal: card has no reveal effects.",
+      "description_text_blocks": [
+        "Power Play cost 5 persuasion.",
+        "You can send an agent to Emperor, Spacing Guild, Bene Gesserit, or Fremen locations. Gain two Influence instead of one. Trash this card.",
+        "On reveal: card has no reveal effects."
+      ],
+      "description_html": "<div><strong>Power Play</strong> cost 5 persuasion.<br><br></div><div>You can send an agent to Emperor, Spacing Guild, Bene Gesserit, or Fremen locations. Gain two Influence instead of one. Trash this card.<br><br></div><div><strong>On reveal: </strong>card has no reveal effects.<br><br></div>",
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Agent icon: Emperor",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spacing Guild",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Bene Gesserit",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Fremen",
+            "value": null
+          },
+          {
+            "name": "Gain one Influence",
+            "value": null
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-power-play.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-power-play.webp"
+    },
+    {
+      "id": 251,
+      "name": "Bribery",
+      "slug": "dune-imperium-bribery",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "You may pay 2 solari to gain 1 Influence with any Faction.",
+      "agent_text": "You may play a Plot Intrigue card any time during one of your Agent or Reveal turns.",
+      "reveal_text": null,
+      "description_text_blocks": [
+        "You may pay 2 solari to gain 1 Influence with any Faction.",
+        "You may play a Plot Intrigue card any time during one of your Agent or Reveal turns."
+      ],
+      "description_html": "<div>You may pay 2 solari to gain 1 Influence with any Faction.<br><br>You may play a <strong>Plot Intrigue</strong> card any time during one of your Agent or Reveal turns.</div>",
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Gain one Influence",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-bribery.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-bribery.webp"
+    },
+    {
+      "id": 252,
+      "name": "Refocus",
+      "slug": "dune-imperium-refocus",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-refocus.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-refocus.webp"
+    },
+    {
+      "id": 253,
+      "name": "Ambush",
+      "slug": "dune-imperium-ambush",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Swords",
+            "value": 4
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-ambush.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-ambush.webp"
+    },
+    {
+      "id": 254,
+      "name": "Allied Armada",
+      "slug": "dune-imperium-allied-armada",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Swords",
+            "value": 7
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-allied-armada.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-allied-armada.webp"
+    },
+    {
+      "id": 255,
+      "name": "Favored Subject",
+      "slug": "dune-imperium-favored-subject",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Emperor bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-favored-subject.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-favored-subject.webp"
+    },
+    {
+      "id": 256,
+      "name": "Demand Respect",
+      "slug": "dune-imperium-demand-respect",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Gain one Influence",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-demand-respect.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-demand-respect.webp"
+    },
+    {
+      "id": 257,
+      "name": "Poison Snooper",
+      "slug": "dune-imperium-poison-snooper",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          },
+          {
+            "name": "Trash",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-poison-snooper.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-poison-snooper.webp"
+    },
+    {
+      "id": 258,
+      "name": "Guild Authorization",
+      "slug": "dune-imperium-guild-authorization",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Spacing Guild bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-guild-authorization.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-guild-authorization.webp"
+    },
+    {
+      "id": 259,
+      "name": "Dispatch an Envoy",
+      "slug": "dune-imperium-dispatch-an-envoy",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-dispatch-an-envoy.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-dispatch-an-envoy.webp"
+    },
+    {
+      "id": 260,
+      "name": "Infiltrate",
+      "slug": "dune-imperium-infiltrate",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-infiltrate.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-infiltrate.webp"
+    },
+    {
+      "id": 261,
+      "name": "Know Their Ways",
+      "slug": "dune-imperium-know-their-ways",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Freman bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-know-their-ways.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-know-their-ways.webp"
+    },
+    {
+      "id": 262,
+      "name": "Master Tactician",
+      "slug": "dune-imperium-master-tactician",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 3,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Swords",
+            "value": 3
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-master-tactician.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-master-tactician.webp"
+    },
+    {
+      "id": 263,
+      "name": "Plans Within Plans",
+      "slug": "dune-imperium-plans-within-plans",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Victory Point",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-plans-within-plans.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-plans-within-plans.webp"
+    },
+    {
+      "id": 264,
+      "name": "Private Army",
+      "slug": "dune-imperium-private-army",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 2,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Swords",
+            "value": 5
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-private-army.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-private-army.webp"
+    },
+    {
+      "id": 265,
+      "name": "Double Cross",
+      "slug": "dune-imperium-double-cross",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-double-cross.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-double-cross.webp"
+    },
+    {
+      "id": 266,
+      "name": "Councilor's Dispensation",
+      "slug": "dune-imperium-councilor-s-dispensation",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Spice",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-councilor-s-dispensation.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-councilor-s-dispensation.webp"
+    },
+    {
+      "id": 267,
+      "name": "Corner The Marker",
+      "slug": "dune-imperium-corner-the-marker",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Victory Point",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-corner-the-marker.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-corner-the-marker.webp"
+    },
+    {
+      "id": 268,
+      "name": "Charisma",
+      "slug": "dune-imperium-charisma",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-charisma.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-charisma.webp"
+    },
+    {
+      "id": 269,
+      "name": "Calculated Hire",
+      "slug": "dune-imperium-calculated-hire",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-calculated-hire.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-calculated-hire.webp"
+    },
+    {
+      "id": 270,
+      "name": "CHOAM Shares",
+      "slug": "dune-imperium-choam-shares",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Victory Point",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-choam-shares.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-choam-shares.webp"
+    },
+    {
+      "id": 271,
+      "name": "Bypass Protocol",
+      "slug": "dune-imperium-bypass-protocol",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-bypass-protocol.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-bypass-protocol.webp"
+    },
+    {
+      "id": 272,
+      "name": "Recruitment Mission",
+      "slug": "dune-imperium-recruitment-mission",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-recruitment-mission.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-recruitment-mission.webp"
+    },
+    {
+      "id": 273,
+      "name": "Reinforcements",
+      "slug": "dune-imperium-reinforcements",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Troops",
+            "value": 3
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-reinforcements.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-reinforcements.webp"
+    },
+    {
+      "id": 274,
+      "name": "Bindu Suspension",
+      "slug": "dune-imperium-bindu-suspension",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-bindu-suspension.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-bindu-suspension.webp"
+    },
+    {
+      "id": 275,
+      "name": "Secret of the Sisterhood",
+      "slug": "dune-imperium-secret-of-the-sisterhood",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Bene Geserit bump",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-secret-of-the-sisterhood.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-secret-of-the-sisterhood.webp"
+    },
+    {
+      "id": 276,
+      "name": "Rapid Mobilization",
+      "slug": "dune-imperium-rapid-mobilization",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-rapid-mobilization.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-rapid-mobilization.webp"
+    },
+    {
+      "id": 277,
+      "name": "Staged Incident",
+      "slug": "dune-imperium-staged-incident",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Victory Point",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-staged-incident.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-staged-incident.webp"
+    },
+    {
+      "id": 278,
+      "name": "The Sleeper Must Awaken",
+      "slug": "dune-imperium-the-sleeper-must-awaken",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Victory Point",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-the-sleeper-must-awaken.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-the-sleeper-must-awaken.webp"
+    },
+    {
+      "id": 279,
+      "name": "Tiebreaker",
+      "slug": "dune-imperium-tiebreaker",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Swords",
+            "value": 2
+          },
+          {
+            "name": "Spice",
+            "value": 10
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-tiebreaker.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-tiebreaker.webp"
+    },
+    {
+      "id": 280,
+      "name": "To The Victory...",
+      "slug": "dune-imperium-to-the-victory",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Spice",
+            "value": 3
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-to-the-victory.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-to-the-victory.webp"
+    },
+    {
+      "id": 281,
+      "name": "Water Peddlers Union",
+      "slug": "dune-imperium-water-peddlers-union",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Water",
+            "value": 1
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-water-peddlers-union.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-water-peddlers-union.webp"
+    },
+    {
+      "id": 282,
+      "name": "Windfall",
+      "slug": "dune-imperium-windfall",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Solari",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-windfall.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-windfall.webp"
+    },
+    {
+      "id": 283,
+      "name": "Water Of Life",
+      "slug": "dune-imperium-water-of-life",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {
+        "on_play": [
+          {
+            "name": "Draw card",
+            "value": 3
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-water-of-life.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-water-of-life.webp"
+    },
+    {
+      "id": 284,
+      "name": "Urgent Mission",
+      "slug": "dune-imperium-urgent-mission",
+      "type": "intrigue",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-intrigue-urgent-mission.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-intrigue-urgent-mission.webp"
+    },
+    {
+      "id": 285,
+      "name": "Baron Vladimir Harkonnen",
+      "slug": "dune-imperium-baron-vladimir-harkonnen",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-baron-vladimir-harkonnen.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-baron-vladimir-harkonnen.webp"
+    },
+    {
+      "id": 286,
+      "name": "Paul Atreides",
+      "slug": "dune-imperium-paul-atreides",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-paul-atreides.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-paul-atreides.webp"
+    },
+    {
+      "id": 287,
+      "name": "Countess Ariana Thorvald",
+      "slug": "dune-imperium-countess-ariana-thorvald",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-countess-ariana-thorvald.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-countess-ariana-thorvald.webp"
+    },
+    {
+      "id": 288,
+      "name": "Earl Memnon Thorvald",
+      "slug": "dune-imperium-earl-memnon-thorvald",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-earl-memnon-thorvald.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-earl-memnon-thorvald.webp"
+    },
+    {
+      "id": 289,
+      "name": "Count Ilban Richese",
+      "slug": "dune-imperium-count-ilban-richese",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-count-ilban-richese.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-count-ilban-richese.webp"
+    },
+    {
+      "id": 290,
+      "name": "Helena Richese",
+      "slug": "dune-imperium-helena-richese",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-helena-richese.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-helena-richese.webp"
+    },
+    {
+      "id": 291,
+      "name": "Glossu \"The Beast\" Rabban",
+      "slug": "dune-imperium-glossu-the-beast-rabban",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-glossu-the-beast-rabban.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-glossu-the-beast-rabban.webp"
+    },
+    {
+      "id": 292,
+      "name": "Duke Leto Atreides",
+      "slug": "dune-imperium-duke-leto-atreides",
+      "type": "leader",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-leader-dune-leto-atreides.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-leader-dune-leto-atreides.webp"
+    },
+    {
+      "id": 423,
+      "name": "Skirmish IIII",
+      "slug": "dune-imperium-skirmish-iiii",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Skirmish rewards (Conflict I)",
+      "agent_text": "1st place: 1 Victory Point",
+      "reveal_text": "2nd place: draw 1 Intrigue and gain 2 solari",
+      "description_text_blocks": [
+        "Skirmish rewards (Conflict I)",
+        "1st place: 1 Victory Point",
+        "2nd place: draw 1 Intrigue and gain 2 solari",
+        "3rd place: gain 2 solari"
+      ],
+      "description_html": "<div><strong>Skirmish rewards </strong>(Conflict I)</div><div><strong>1st</strong> place: 1 Victory Point</div><div><strong>2nd</strong> place: draw 1 Intrigue and gain 2 solari</div><div><strong>3rd</strong> place: gain 2 solari</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Solari",
+            "value": 2
+          },
+          {
+            "name": "conflict-1",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-skirmish-iiii.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-skirmish-iiii.webp"
+    },
+    {
+      "id": 424,
+      "name": "Skirmish III",
+      "slug": "dune-imperium-skirmish-iii",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Skirmish rewards (Conflict I)",
+      "agent_text": "1st place: 1 Victory Point",
+      "reveal_text": "2nd place: gain 1 water",
+      "description_text_blocks": [
+        "Skirmish rewards (Conflict I)",
+        "1st place: 1 Victory Point",
+        "2nd place: gain 1 water",
+        "3rd place: gain 1 spice"
+      ],
+      "description_html": "<div><strong>Skirmish rewards </strong>(Conflict I)</div><div><strong>1st</strong> place: 1 Victory Point</div><div><strong>2nd</strong> place: gain 1 water</div><div><strong>3rd</strong> place: gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          },
+          {
+            "name": "conflict-1",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-skirmish-iii.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-skirmish-iii.webp"
+    },
+    {
+      "id": 425,
+      "name": "Skirmish II",
+      "slug": "dune-imperium-skirmish-ii",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Skirmish rewards (Conflict I)",
+      "agent_text": "1st place: gain 1 Influence with any Faction and gain 1 spice",
+      "reveal_text": "2nd place: gain 2 spice",
+      "description_text_blocks": [
+        "Skirmish rewards (Conflict I)",
+        "1st place: gain 1 Influence with any Faction and gain 1 spice",
+        "2nd place: gain 2 spice",
+        "3rd place: gain 1 spice"
+      ],
+      "description_html": "<div><strong>Skirmish rewards </strong>(Conflict I)</div><div><strong>1st</strong> place: gain 1 Influence with any Faction and gain 1 spice</div><div><strong>2nd</strong> place: gain 2 spice</div><div><strong>3rd</strong> place: gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Gain one Influence",
+            "value": null
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          },
+          {
+            "name": "conflict-1",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-skirmish-ii.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-skirmish-ii.webp"
+    },
+    {
+      "id": 426,
+      "name": "Skirmish I",
+      "slug": "dune-imperium-skirmish-i",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Skirmish rewards (Conflict I)",
+      "agent_text": "1st place: gain 1 Influence with any Faction and gain 2 solari",
+      "reveal_text": "2nd place: gain 3 solari",
+      "description_text_blocks": [
+        "Skirmish rewards (Conflict I)",
+        "1st place: gain 1 Influence with any Faction and gain 2 solari",
+        "2nd place: gain 3 solari",
+        "3rd place: gain 2 solari"
+      ],
+      "description_html": "<div><strong>Skirmish rewards </strong>(Conflict I)</div><div><strong>1st</strong> place: gain 1 Influence with any Faction and gain 2 solari</div><div><strong>2nd</strong> place: gain 3 solari</div><div><strong>3rd</strong> place: gain 2 solari</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Gain one Influence",
+            "value": null
+          },
+          {
+            "name": "Solari",
+            "value": 3
+          },
+          {
+            "name": "conflict-1",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-skirmish-i.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-skirmish-i.webp"
+    },
+    {
+      "id": 427,
+      "name": "Desert Power",
+      "slug": "dune-imperium-desert-power",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Desert Power rewards (Conflict II)",
+      "agent_text": "1st place: 1 Victory Point and gain 1 water",
+      "reveal_text": "2nd place: gain 1 water and gain 1 spice",
+      "description_text_blocks": [
+        "Desert Power rewards (Conflict II)",
+        "1st place: 1 Victory Point and gain 1 water",
+        "2nd place: gain 1 water and gain 1 spice",
+        "3rd place: gain 1 spice"
+      ],
+      "description_html": "<div><strong>Desert Power rewards </strong>(Conflict II)</div><div><strong>1st</strong> place: 1 Victory Point and gain 1 water</div><div><strong>2nd</strong> place: gain 1 water and gain 1 spice</div><div><strong>3rd</strong> place: gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-desert-power.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-desert-power.webp"
+    },
+    {
+      "id": 428,
+      "name": "Raid Stockpiles",
+      "slug": "dune-imperium-raid-stockpiles",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Raid Stockpiles rewards (Conflict I)",
+      "agent_text": "1st place: draw 1 Intrigue and gain 3 spice",
+      "reveal_text": "2nd place: gain 2 spice",
+      "description_text_blocks": [
+        "Raid Stockpiles rewards (Conflict I)",
+        "1st place: draw 1 Intrigue and gain 3 spice",
+        "2nd place: gain 2 spice",
+        "3rd place: gain 1 spice"
+      ],
+      "description_html": "<div><strong>Raid Stockpiles rewards</strong> (Conflict I)</div><div><strong>1st</strong> place: draw 1 Intrigue and gain 3 spice</div><div><strong>2nd</strong> place: gain 2 spice</div><div><strong>3rd</strong> place: gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 3
+          },
+          {
+            "name": "conflict-1",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-raid-stockpiles.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-raid-stockpiles.webp"
+    },
+    {
+      "id": 429,
+      "name": "Cloak And Dagger",
+      "slug": "dune-imperium-cloak-and-dagger",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Cloak and Dagger rewards (Conflict II)",
+      "agent_text": "1st place: gain 1 Influence with any Faction and draw 2 Intrigue",
+      "reveal_text": "2nd place: draw 1 Intrigue and gain 1 spice",
+      "description_text_blocks": [
+        "Cloak and Dagger rewards (Conflict II)",
+        "1st place: gain 1 Influence with any Faction and draw 2 Intrigue",
+        "2nd place: draw 1 Intrigue and gain 1 spice",
+        "3rd place: draw 1 Intrigue or gain 1 spice"
+      ],
+      "description_html": "<div><strong>Cloak and Dagger rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: gain 1 Influence with any Faction and draw 2 Intrigue</div><div><strong>2nd</strong> place: draw 1 Intrigue and gain 1 spice</div><div><strong>3rd</strong> place: draw 1 Intrigue or gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Gain one Influence",
+            "value": null
+          },
+          {
+            "name": "Intrigue",
+            "value": 2
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-cloak-and-dagger.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-cloak-and-dagger.webp"
+    },
+    {
+      "id": 430,
+      "name": "Machinations",
+      "slug": "dune-imperium-machinations",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Machinations rewards (Conflict II)",
+      "agent_text": "1st place: choose two: gain 1 Influence with Emperor, gain 1 Influence with Spacing Guild, gain 1 Influence with Bene Gesserit, or gain 1 Influence with Fremen",
+      "reveal_text": "2nd place: gain 1 water and gain 2 solari",
+      "description_text_blocks": [
+        "Machinations rewards (Conflict II)",
+        "1st place: choose two: gain 1 Influence with Emperor, gain 1 Influence with Spacing Guild, gain 1 Influence with Bene Gesserit, or gain 1 Influence with Fremen",
+        "2nd place: gain 1 water and gain 2 solari",
+        "3rd place: gain 1 water"
+      ],
+      "description_html": "<div><strong>Machinations rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: <strong>choose two</strong>: gain 1 Influence with Emperor, gain 1 Influence with Spacing Guild, gain 1 Influence with Bene Gesserit, or gain 1 Influence with Fremen</div><div><strong>2nd</strong> place: gain 1 water and gain 2 solari</div><div><strong>3rd</strong> place: gain 1 water</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Emperor bump",
+            "value": null
+          },
+          {
+            "name": "Spacing Guild bump",
+            "value": null
+          },
+          {
+            "name": "Bene Geserit bump",
+            "value": null
+          },
+          {
+            "name": "Freman bump",
+            "value": null
+          },
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Solari",
+            "value": 1
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-machinations.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-machinations.webp"
+    },
+    {
+      "id": 431,
+      "name": "Sort Through The Chaos",
+      "slug": "dune-imperium-sort-through-the-chaos",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Sort Through the Chaos rewards (Conflict II)",
+      "agent_text": "1st take the Mentat at the start of the next round, draw 1 Intrigue and gain 2 solari",
+      "reveal_text": "2nd place: draw 1 Intrigue and gain 2 solari",
+      "description_text_blocks": [
+        "Sort Through the Chaos rewards (Conflict II)",
+        "1st take the Mentat at the start of the next round, draw 1 Intrigue and gain 2 solari",
+        "2nd place: draw 1 Intrigue and gain 2 solari",
+        "3rd place: gain 2 solari"
+      ],
+      "description_html": "<div><strong>Sort Through the Chaos rewards</strong> (Conflict II)</div><div><strong>1st</strong>&nbsp;take the Mentat at the start of the next round, draw 1 Intrigue and gain 2 solari</div><div><strong>2nd</strong> place: draw 1 Intrigue and gain 2 solari</div><div><strong>3rd</strong> place: gain 2 solari</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Solari",
+            "value": 2
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-sort-through-the-chaos.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-sort-through-the-chaos.webp"
+    },
+    {
+      "id": 432,
+      "name": "Terrible Purpose",
+      "slug": "dune-imperium-terrible-purpose",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Terrible Purpose rewards (Conflict II)",
+      "agent_text": "1st place: 1 Victory Point and trash one card from your hand, discard pile, or in play",
+      "reveal_text": "2nd place: gain 1 water and gain 1 spice",
+      "description_text_blocks": [
+        "Terrible Purpose rewards (Conflict II)",
+        "1st place: 1 Victory Point and trash one card from your hand, discard pile, or in play",
+        "2nd place: gain 1 water and gain 1 spice",
+        "3rd place: gain 1 spice"
+      ],
+      "description_html": "<div><strong>Terrible Purpose rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: 1 Victory Point and trash one card from your hand, discard pile, or in play</div><div><strong>2nd</strong> place: gain 1 water and gain 1 spice</div><div><strong>3rd</strong> place: gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Trash",
+            "value": 1
+          },
+          {
+            "name": "Water",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-terrible-purpose.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-terrible-purpose.webp"
+    },
+    {
+      "id": 433,
+      "name": "Guild Bank Raid",
+      "slug": "dune-imperium-guild-bank-raid",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Guild Bank Raid rewards (Conflict II)",
+      "agent_text": "1st place: gain 6 solari",
+      "reveal_text": "2nd place: gain 4 solari",
+      "description_text_blocks": [
+        "Guild Bank Raid rewards (Conflict II)",
+        "1st place: gain 6 solari",
+        "2nd place: gain 4 solari",
+        "3rd place: gain 2 solari"
+      ],
+      "description_html": "<div><strong>Guild Bank Raid rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: gain 6 solari</div><div><strong>2nd</strong> place: gain 4 solari</div><div><strong>3rd</strong> place: gain 2 solari</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Solari",
+            "value": 6
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-guild-bank-raid.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-guild-bank-raid.webp"
+    },
+    {
+      "id": 434,
+      "name": "Siege Of Arrakeen",
+      "slug": "dune-imperium-siege-of-arrakeen",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Siege of Arrakeen rewards (Conflict II)",
+      "agent_text": "1st place: 1 Victory Point and place you Control marker on the flag below Arrakeen",
+      "reveal_text": "2nd place: gain 4 solari",
+      "description_text_blocks": [
+        "Siege of Arrakeen rewards (Conflict II)",
+        "1st place: 1 Victory Point and place you Control marker on the flag below Arrakeen",
+        "2nd place: gain 4 solari",
+        "3rd place: gain 2 solari"
+      ],
+      "description_html": "<div><strong>Siege of Arrakeen rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: 1 Victory Point and place you Control marker on the flag below <strong>Arrakeen</strong></div><div><strong>2nd</strong> place: gain 4 solari</div><div><strong>3rd</strong> place: gain 2 solari</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Solari",
+            "value": 4
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-siege-of-arrakeen.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-siege-of-arrakeen.webp"
+    },
+    {
+      "id": 435,
+      "name": "Siege Of Carthag",
+      "slug": "dune-imperium-siege-of-carthag",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Siege of Carthag rewards (Conflict II)",
+      "agent_text": "1st place: 1 Victory Point and place your Control marker on the flag below Carthag",
+      "reveal_text": "2nd place: draw 1 Intrigue and gain 1 spice",
+      "description_text_blocks": [
+        "Siege of Carthag rewards (Conflict II)",
+        "1st place: 1 Victory Point and place your Control marker on the flag below Carthag",
+        "2nd place: draw 1 Intrigue and gain 1 spice",
+        "3rd place: gain 1 spice"
+      ],
+      "description_html": "<div><strong>Siege of Carthag rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: 1 Victory Point and place your Control marker on the flag below <strong>Carthag</strong></div><div><strong>2nd</strong> place: draw 1 Intrigue and gain 1 spice</div><div><strong>3rd</strong> place: gain 1 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 1
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-siege-of-carthag.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-siege-of-carthag.webp"
+    },
+    {
+      "id": 436,
+      "name": "Secure Imperial Basin",
+      "slug": "dune-imperium-secure-imperial-basin",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Secure Imperial Basin rewards (Conflict II)",
+      "agent_text": "1st place: 1 Victory Point and place your Control marker on the flag below Imperial Basin",
+      "reveal_text": "2nd place: gain 2 water",
+      "description_text_blocks": [
+        "Secure Imperial Basin rewards (Conflict II)",
+        "1st place: 1 Victory Point and place your Control marker on the flag below Imperial Basin",
+        "2nd place: gain 2 water",
+        "3rd place: gain 1 water"
+      ],
+      "description_html": "<div><strong>Secure Imperial Basin rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: 1 Victory Point and place your Control marker on the flag below <strong>Imperial Basin</strong></div><div><strong>2nd</strong> place: gain 2 water</div><div><strong>3rd</strong> place: gain 1 water</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Water",
+            "value": 2
+          },
+          {
+            "name": "conflict-2",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-secure-imperial-basin.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-secure-imperial-basin.webp"
+    },
+    {
+      "id": 437,
+      "name": "Battle For Imperial Basin",
+      "slug": "dune-imperium-battle-for-imperial-basin",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Battle for Imperial Basin rewards (Conflict III)",
+      "agent_text": "1st place: 2 Victory Points and place your Control marker on the flag below Imperial Basin",
+      "reveal_text": "2nd place: gain 5 solari",
+      "description_text_blocks": [
+        "Battle for Imperial Basin rewards (Conflict III)",
+        "1st place: 2 Victory Points and place your Control marker on the flag below Imperial Basin",
+        "2nd place: gain 5 solari",
+        "3rd place: gain 3 solari",
+        "When a Conflict card is revealed for a space that you already control (even with a dreadnought, you may deploy one troop from your supply to the Conflict."
+      ],
+      "description_html": "<div><strong>Battle for Imperial Basin rewards</strong> (Conflict III)</div><div><strong>1st</strong> place: 2 Victory Points and place your Control marker on the flag below <strong>Imperial Basin</strong></div><div><strong>2nd</strong> place: gain 5 solari</div><div><strong>3rd</strong> place: gain 3 solari<br><br><em>When a Conflict card is revealed for a space that you already control (even with a dreadnought, you may deploy one troop from your supply to the Conflict.</em></div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Spice",
+            "value": 5
+          },
+          {
+            "name": "conflict-3",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-battle-for-imperial-basin.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-battle-for-imperial-basin.webp"
+    },
+    {
+      "id": 438,
+      "name": "Grand Vision",
+      "slug": "dune-imperium-grand-vision",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Grand Vision rewards (Conflict II)",
+      "agent_text": "1st place: gain 2 Influence with any one Faction and draw 1 Intrigue",
+      "reveal_text": "2nd place: draw 1 Intrigue and gain 3 spice",
+      "description_text_blocks": [
+        "Grand Vision rewards (Conflict II)",
+        "1st place: gain 2 Influence with any one Faction and draw 1 Intrigue",
+        "2nd place: draw 1 Intrigue and gain 3 spice",
+        "3rd place: gain 3 spice"
+      ],
+      "description_html": "<div><strong>Grand Vision rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: gain 2 Influence with any one Faction and draw 1 Intrigue</div><div><strong>2nd</strong> place: draw 1 Intrigue and gain 3 spice</div><div><strong>3rd</strong> place: gain 3 spice</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Gain one Influence",
+            "value": null
+          },
+          {
+            "name": "Spice",
+            "value": 3
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "conflict-3",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-grand-vision.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-grand-vision.webp"
+    },
+    {
+      "id": 439,
+      "name": "Battle For Carthag",
+      "slug": "dune-imperium-battle-for-carthag",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Battle for Carthag rewards (Conflict III)",
+      "agent_text": "1st place: 2 Victory Points and place your Control marker on the flag below Carthag",
+      "reveal_text": "2nd place: draw 1 Intrigue and gain 3 spice",
+      "description_text_blocks": [
+        "Battle for Carthag rewards (Conflict III)",
+        "1st place: 2 Victory Points and place your Control marker on the flag below Carthag",
+        "2nd place: draw 1 Intrigue and gain 3 spice",
+        "3rd place: gain 3 spice",
+        "When a Conflict card is revealed for a space that you already control (even with a dreadnought, you may deploy one troop from your supply to the Conflict."
+      ],
+      "description_html": "<div><strong>Battle for Carthag rewards</strong> (Conflict III)</div><div><strong>1st</strong> place: 2 Victory Points and place your Control marker on the flag below <strong>Carthag</strong></div><div><strong>2nd</strong> place: draw 1 Intrigue and gain 3 spice</div><div><strong>3rd</strong> place: gain 3 spice<br><br><em>When a Conflict card is revealed for a space that you already control (even with a dreadnought, you may deploy one troop from your supply to the Conflict.</em></div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 3
+          },
+          {
+            "name": "conflict-3",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-battle-for-carthag.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-battle-for-carthag.webp"
+    },
+    {
+      "id": 440,
+      "name": "Battle For Arrakeen",
+      "slug": "dune-imperium-battle-for-arrakeen",
+      "type": "conflict",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Battle for Arrakeen rewards (Conflict II)",
+      "agent_text": "1st place: 2 Victory Points and place your Control marker on the flag below Arrakeen",
+      "reveal_text": "2nd place: choose two: draw 1 Intrigue, gain 2 spice, or gain 3 solari",
+      "description_text_blocks": [
+        "Battle for Arrakeen rewards (Conflict II)",
+        "1st place: 2 Victory Points and place your Control marker on the flag below Arrakeen",
+        "2nd place: choose two: draw 1 Intrigue, gain 2 spice, or gain 3 solari",
+        "3rd place: draw 1 Intrigue and gain 2 solari",
+        "When a Conflict card is revealed for a space that you already control (even with a dreadnought, you may deploy one troop from your supply to the Conflict."
+      ],
+      "description_html": "<div><strong>Battle for Arrakeen rewards</strong> (Conflict II)</div><div><strong>1st</strong> place: 2 Victory Points and place your Control marker on the flag below <strong>Arrakeen</strong></div><div><strong>2nd</strong> place: <strong>choose two</strong>: draw 1 Intrigue, gain 2 spice, or gain 3 solari</div><div><strong>3rd</strong> place: draw 1 Intrigue and gain 2 solari<br><br><em>When a Conflict card is revealed for a space that you already control (even with a dreadnought, you may deploy one troop from your supply to the Conflict.</em></div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Victory Point",
+            "value": null
+          },
+          {
+            "name": "Intrigue",
+            "value": 1
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          },
+          {
+            "name": "Solari",
+            "value": 3
+          },
+          {
+            "name": "conflict-3",
+            "value": null
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-conflict-battle-for-arrakeen.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-conflict-battle-for-arrakeen.webp"
+    },
+    {
+      "id": 445,
+      "name": "Worm Riders",
+      "slug": "dune-imperium-worm-riders",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 6,
+      "cost_text": "Worm Riders cost 6 persuasion, has Fremen faction tag.",
+      "agent_text": "You can send an Agent to City or Spice Trade spaces. Gain 2 spice.",
+      "reveal_text": "On reveal if you have 2 Influence with Fremen gain 4 swords and if you have Fremen Alliance gain 2 additional swords",
+      "description_text_blocks": [
+        "Worm Riders cost 6 persuasion, has Fremen faction tag.",
+        "You can send an Agent to City or Spice Trade spaces. Gain 2 spice.",
+        "On reveal if you have 2 Influence with Fremen gain 4 swords and if you have Fremen Alliance gain 2 additional swords"
+      ],
+      "description_html": "<div><strong>Worm Riders</strong> cost 6 persuasion, has Fremen faction tag.<br><br></div><div>You can send an Agent to City or Spice Trade spaces. Gain 2 spice.<br><br></div><div><strong>On reveal</strong> if you have 2 Influence with Fremen gain 4 swords and if you have Fremen Alliance gain 2 additional swords</div>",
+      "attributes": {
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 6
+          },
+          {
+            "name": "Faction: Fremen",
+            "value": null
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Agent icon: City",
+            "value": null
+          },
+          {
+            "name": "Agent icon: Spice Trade",
+            "value": null
+          },
+          {
+            "name": "Spice",
+            "value": 2
+          }
+        ],
+        "on_reveal": [
+          {
+            "name": "Swords",
+            "value": 6
+          },
+          {
+            "name": "Persuasion on reveal",
+            "value": 0
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-worm-riders.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-worm-riders.webp"
+    },
+    {
+      "id": 446,
+      "name": "Arrakis Recruiter",
+      "slug": "dune-imperium-arrakis-recruiter",
+      "type": "imperium",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": 2,
+      "cost_text": "Arrakis Recruiter cost 2 persuasion.",
+      "agent_text": "You can send an Agent to City spaces. Recruit 1 troop.",
+      "reveal_text": "On reveal gain 1 persuasion and 1 sword",
+      "description_text_blocks": [
+        "Arrakis Recruiter cost 2 persuasion.",
+        "You can send an Agent to City spaces. Recruit 1 troop.",
+        "On reveal gain 1 persuasion and 1 sword"
+      ],
+      "description_html": "<div><strong>Arrakis Recruiter</strong> cost 2 persuasion.<br><br></div><div>You can send an Agent to City spaces. Recruit 1 troop.<br><br></div><div><strong>On reveal</strong> gain 1 persuasion and 1 sword</div>",
+      "attributes": {
+        "on_reveal": [
+          {
+            "name": "Persuasion on reveal",
+            "value": 1
+          },
+          {
+            "name": "Swords",
+            "value": 1
+          }
+        ],
+        "on_play": [
+          {
+            "name": "Troops",
+            "value": 1
+          },
+          {
+            "name": "Agent icon: City",
+            "value": null
+          }
+        ],
+        "general": [
+          {
+            "name": "Persuasion cost",
+            "value": 2
+          }
+        ]
+      },
+      "image": "https://dunecardshub.com/images/dune-imperium-imperium-arrakis-recruiter.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-imperium-arrakis-recruiter.webp"
+    },
+    {
+      "id": 527,
+      "name": "Dune, The Desert Planet",
+      "slug": "dune-imperium-dune-the-desert-planet",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-dune-the-desert-planet.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-dune-the-desert-planet.webp"
+    },
+    {
+      "id": 528,
+      "name": "Dagger",
+      "slug": "dune-imperium-dagger",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-dagger.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-dagger.webp"
+    },
+    {
+      "id": 529,
+      "name": "Reconnaissance",
+      "slug": "dune-imperium-reconnaissance",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-reconnaissance.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-reconnaissance.webp"
+    },
+    {
+      "id": 530,
+      "name": "Convincing Argument",
+      "slug": "dune-imperium-convincing-argument",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-convincing-argument.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-convincing-argument.webp"
+    },
+    {
+      "id": 531,
+      "name": "Signet Ring",
+      "slug": "dune-imperium-signet-ring",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-signet-ring.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-signet-ring.webp"
+    },
+    {
+      "id": 532,
+      "name": "Seek Allies",
+      "slug": "dune-imperium-seek-allies",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-seek-allies.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-seek-allies.webp"
+    },
+    {
+      "id": 533,
+      "name": "Diplomacy",
+      "slug": "dune-imperium-diplomacy",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-diplomacy.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-diplomacy.webp"
+    },
+    {
+      "id": 534,
+      "name": "Foldspace",
+      "slug": "dune-imperium-foldspace",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-foldspace.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-foldspace.webp"
+    },
+    {
+      "id": 535,
+      "name": "Arrakis Liaison",
+      "slug": "dune-imperium-arrakis-liaison",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-arrakis-liaison.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-arrakis-liaison.webp"
+    },
+    {
+      "id": 536,
+      "name": "The Spice Must Flow",
+      "slug": "dune-imperium-the-spice-must-flow",
+      "type": "other",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": null,
+      "agent_text": null,
+      "reveal_text": null,
+      "description_text_blocks": [],
+      "description_html": null,
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-other-the-spice-must-flow.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-other-the-spice-must-flow.webp"
+    },
+    {
+      "id": 586,
+      "name": "Arrakeen",
+      "slug": "dune-imperium-arrakeen",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: City",
+      "agent_text": "Combat space",
+      "reveal_text": "Recruit a troop and draw a card. Arrakeen’s controller gains 1 Solari.",
+      "description_text_blocks": [
+        "Agent icon: City",
+        "Combat space",
+        "Recruit a troop and draw a card. Arrakeen’s controller gains 1 Solari."
+      ],
+      "description_html": "<div>Agent icon: City<br>Combat space<br><br>Recruit a troop and draw a card. Arrakeen’s controller gains 1 Solari.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-arrakeen.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-arrakeen.webp"
+    },
+    {
+      "id": 587,
+      "name": "Carthag",
+      "slug": "dune-imperium-carthag",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: City",
+      "agent_text": "Combat space",
+      "reveal_text": "Recruit a troop and draw an Intrigue card.",
+      "description_text_blocks": [
+        "Agent icon: City",
+        "Combat space",
+        "Recruit a troop and draw an Intrigue card.",
+        "Carthag’s controller gains 1 Solari."
+      ],
+      "description_html": "<div>Agent icon: City<br>Combat space<br><br>Recruit a troop and draw an Intrigue card.<br>Carthag’s controller gains 1 Solari.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-carthag.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-carthag.webp"
+    },
+    {
+      "id": 588,
+      "name": "Conspire",
+      "slug": "dune-imperium-conspire",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Emperor",
+      "agent_text": "Cost: 4 spice",
+      "reveal_text": "Gain one Influence with the Emperor. Gain 5 Solari, recruit two troops, and draw an Intrigue card.",
+      "description_text_blocks": [
+        "Agent icon: Emperor",
+        "Cost: 4 spice",
+        "Gain one Influence with the Emperor. Gain 5 Solari, recruit two troops, and draw an Intrigue card."
+      ],
+      "description_html": "<div>Agent icon: Emperor<br>Cost: 4 spice<br><br>Gain one Influence with the Emperor. Gain 5 Solari, recruit two troops, and draw an Intrigue card.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-conspire.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-conspire.webp"
+    },
+    {
+      "id": 589,
+      "name": "Foldspace",
+      "slug": "dune-imperium-foldspace",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spacing Guild",
+      "agent_text": "Gain one Influence with the Spacing Guild.",
+      "reveal_text": "Acquire a Foldspace card from the Reserve.",
+      "description_text_blocks": [
+        "Agent icon: Spacing Guild",
+        "Gain one Influence with the Spacing Guild.",
+        "Acquire a Foldspace card from the Reserve."
+      ],
+      "description_html": "<div>Agent icon: Spacing Guild<br><br>Gain one Influence with the Spacing Guild.<br>Acquire a Foldspace card from the Reserve.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-foldspace.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-foldspace.webp"
+    },
+    {
+      "id": 590,
+      "name": "The Great Flat",
+      "slug": "dune-imperium-the-great-flat",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spice Trade",
+      "agent_text": "Combat space",
+      "reveal_text": "Cost: 2 water",
+      "description_text_blocks": [
+        "Agent icon: Spice Trade",
+        "Combat space",
+        "Cost: 2 water",
+        "Gain 3 spice, plus any bonus spice accumulated here on the Maker icon."
+      ],
+      "description_html": "<div>Agent icon: Spice Trade<br>Combat space<br>Cost: 2 water<br><br>Gain 3 spice, plus any bonus spice accumulated here on the Maker icon.&nbsp;</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-the-great-flat.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-the-great-flat.webp"
+    },
+    {
+      "id": 591,
+      "name": "Hall of Oratory",
+      "slug": "dune-imperium-hall-of-oratory",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Landsraad",
+      "agent_text": "Recruit a troop.",
+      "reveal_text": "During your Reveal turn, gain 1 Persuasion if you have an Agent here.",
+      "description_text_blocks": [
+        "Agent icon: Landsraad",
+        "Recruit a troop.",
+        "During your Reveal turn, gain 1 Persuasion if you have an Agent here."
+      ],
+      "description_html": "<div>Agent icon: Landsraad<br><br>Recruit a troop.<br>During your Reveal turn, gain 1 Persuasion if you have an Agent here.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-hall-of-oratory.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-hall-of-oratory.webp"
+    },
+    {
+      "id": 592,
+      "name": "Hardy Warriors",
+      "slug": "dune-imperium-hardy-warriors",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Fremen",
+      "agent_text": "Combat space",
+      "reveal_text": "Cost: 1 water",
+      "description_text_blocks": [
+        "Agent icon: Fremen",
+        "Combat space",
+        "Cost: 1 water",
+        "Gain one Influence with the Fremen.",
+        "Recruit two troops."
+      ],
+      "description_html": "<div>Agent icon: Fremen<br>Combat space<br>Cost: 1 water<br><br>Gain one Influence with the Fremen.<br>Recruit two troops.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-hardy-warriors.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-hardy-warriors.webp"
+    },
+    {
+      "id": 593,
+      "name": "Heighliner",
+      "slug": "dune-imperium-heighliner",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spacing Guild",
+      "agent_text": "Combat space",
+      "reveal_text": "Cost: 6 spice",
+      "description_text_blocks": [
+        "Agent icon: Spacing Guild",
+        "Combat space",
+        "Cost: 6 spice",
+        "Gain one Influence with the Spacing Guild.",
+        "Recruit five troops and gain 2 water."
+      ],
+      "description_html": "<div>Agent icon: Spacing Guild<br>Combat space<br>Cost: 6 spice<br><br>Gain one Influence with the Spacing Guild.<br>Recruit five troops and gain 2 water.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-heighliner.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-heighliner.webp"
+    },
+    {
+      "id": 594,
+      "name": "Rally Troops",
+      "slug": "dune-imperium-rally-troops",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Landsraad",
+      "agent_text": "Cost: 4 Solari",
+      "reveal_text": "Recruit four troops.",
+      "description_text_blocks": [
+        "Agent icon: Landsraad",
+        "Cost: 4 Solari",
+        "Recruit four troops."
+      ],
+      "description_html": "<div>Agent icon: Landsraad<br>Cost: 4 Solari<br><br>Recruit four troops.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-rally-troops.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-rally-troops.webp"
+    },
+    {
+      "id": 595,
+      "name": "Imperial Basin",
+      "slug": "dune-imperium-imperial-basin",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spice Trade",
+      "agent_text": "Combat space",
+      "reveal_text": "Gain 1 spice, plus any bonus spice accumulated here on the Maker icon.",
+      "description_text_blocks": [
+        "Agent icon: Spice Trade",
+        "Combat space",
+        "Gain 1 spice, plus any bonus spice accumulated here on the Maker icon.",
+        "Imperial Basin’s controller gains 1 spice."
+      ],
+      "description_html": "<div>Agent icon: Spice Trade<br>Combat space<br><br>Gain 1 spice, plus any bonus spice accumulated here on the Maker icon.<br>Imperial Basin’s controller gains 1 spice.&nbsp;</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-imperial-basin.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-imperial-basin.webp"
+    },
+    {
+      "id": 596,
+      "name": "High Council",
+      "slug": "dune-imperium-high-council",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Landsraad",
+      "agent_text": "Cost: 5 Solari",
+      "reveal_text": "You may send an Agent here only once per game. Place your Councilor token on an unoccupied Council seat (to the right of the space). For the rest of the game, during each of your Reveal turns, gain 2 Persuasion.",
+      "description_text_blocks": [
+        "Agent icon: Landsraad",
+        "Cost: 5 Solari",
+        "You may send an Agent here only once per game. Place your Councilor token on an unoccupied Council seat (to the right of the space). For the rest of the game, during each of your Reveal turns, gain 2 Persuasion."
+      ],
+      "description_html": "<div>Agent icon: Landsraad&nbsp;<br>Cost: 5 Solari&nbsp;<br><br>You may send an Agent here only once per game. Place your Councilor token on an unoccupied Council seat (to the right of the space). For the rest of the game, during each of your Reveal turns, gain 2 Persuasion.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-high-council.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-high-council.webp"
+    },
+    {
+      "id": 597,
+      "name": "Mentat",
+      "slug": "dune-imperium-mentat",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Landsraad",
+      "agent_text": "Cost: 2 Solari",
+      "reveal_text": "Draw a card. If the Mentat is here, take it and place it on your Leader; this round, you",
+      "description_text_blocks": [
+        "Agent icon: Landsraad",
+        "Cost: 2 Solari",
+        "Draw a card. If the Mentat is here, take it and place it on your Leader; this round, you",
+        "may use it as one of your Agents to take an Agent turn.",
+        "During Phase 5: Recall, return it here."
+      ],
+      "description_html": "<div>Agent icon: Landsraad<br>Cost: 2 Solari<br><br>Draw a card. If the Mentat is here, take it and place it on your Leader; this round, you<br>may use it as one of your Agents to take an Agent turn.&nbsp;<br><br>During Phase 5: Recall, return it here.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-mentat.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-mentat.webp"
+    },
+    {
+      "id": 598,
+      "name": "Research Station",
+      "slug": "dune-imperium-research-station",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: City",
+      "agent_text": "Combat space",
+      "reveal_text": "Cost: 2 water",
+      "description_text_blocks": [
+        "Agent icon: City",
+        "Combat space",
+        "Cost: 2 water",
+        "Draw three cards."
+      ],
+      "description_html": "<div>Agent icon: City<br>Combat space<br>Cost: 2 water<br><br>Draw three cards.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-research-station.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-research-station.webp"
+    },
+    {
+      "id": 599,
+      "name": "Secrets",
+      "slug": "dune-imperium-secrets",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Bene Gesserit",
+      "agent_text": "Gain one Influence with the Bene Gesserit.",
+      "reveal_text": "Draw an Intrigue card. Each opponent who has four or more Intrigue cards must give you one of them (selected at random).",
+      "description_text_blocks": [
+        "Agent icon: Bene Gesserit",
+        "Gain one Influence with the Bene Gesserit.",
+        "Draw an Intrigue card. Each opponent who has four or more Intrigue cards must give you one of them (selected at random)."
+      ],
+      "description_html": "<div>Agent icon: Bene Gesserit<br>Gain one Influence with the Bene Gesserit.<br><br>Draw an Intrigue card. Each opponent who has four or more Intrigue cards must give you one of them (<strong>selected at random</strong>).</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-secrets.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-secrets.webp"
+    },
+    {
+      "id": 600,
+      "name": "Secure Contract",
+      "slug": "dune-imperium-secure-contract",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spice Trade",
+      "agent_text": "Gain 3 Solari.",
+      "reveal_text": null,
+      "description_text_blocks": [
+        "Agent icon: Spice Trade",
+        "Gain 3 Solari."
+      ],
+      "description_html": "<div>Agent icon: Spice Trade<br><br>Gain 3 Solari.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-secure-contract.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-secure-contract.webp"
+    },
+    {
+      "id": 601,
+      "name": "Selective Breeding",
+      "slug": "dune-imperium-selective-breeding",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Bene Gesserit",
+      "agent_text": "Cost: 2 spice",
+      "reveal_text": "Gain one Influence with the Bene Gesserit.",
+      "description_text_blocks": [
+        "Agent icon: Bene Gesserit",
+        "Cost: 2 spice",
+        "Gain one Influence with the Bene Gesserit.",
+        "Trash one card to draw two cards."
+      ],
+      "description_html": "<div>Agent icon: Bene Gesserit<br>Cost: 2 spice<br><br>Gain one Influence with the Bene Gesserit.<br>Trash one card to draw two cards.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-selective-breeding.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-selective-breeding.webp"
+    },
+    {
+      "id": 602,
+      "name": "Sell Melange",
+      "slug": "dune-imperium-sell-melange",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spice Trade",
+      "agent_text": "Cost: 2 to 5 spice.",
+      "reveal_text": "Gain the amount of Solari shown based on the cost you paid. You can’t make multiple exchanges on a single turn.",
+      "description_text_blocks": [
+        "Agent icon: Spice Trade",
+        "Cost: 2 to 5 spice.",
+        "Gain the amount of Solari shown based on the cost you paid. You can’t make multiple exchanges on a single turn."
+      ],
+      "description_html": "<div>Agent icon: Spice Trade<br>Cost: 2 to 5 spice.<br><br>Gain the amount of Solari shown based on the cost you paid. You can’t make multiple exchanges on a single turn.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-sell-melange.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-sell-melange.webp"
+    },
+    {
+      "id": 603,
+      "name": "Sietch Tabr",
+      "slug": "dune-imperium-sietch-tabr",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: City",
+      "agent_text": "Combat space",
+      "reveal_text": "Requirement: You must have 2 or more Influence with the Fremen.",
+      "description_text_blocks": [
+        "Agent icon: City",
+        "Combat space",
+        "Requirement: You must have 2 or more Influence with the Fremen.",
+        "Recruit a troop and gain 1 water."
+      ],
+      "description_html": "<div>Agent icon: City <br>Combat space <br><strong>Requirement</strong>: You must have 2 or more Influence with the Fremen.&nbsp;<br><br>Recruit a troop and gain 1 water.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-sietch-tabr.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-sietch-tabr.webp"
+    },
+    {
+      "id": 604,
+      "name": "Stillsuits",
+      "slug": "dune-imperium-stillsuits",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Fremen",
+      "agent_text": "Combat space",
+      "reveal_text": "Gain one Influence with the Fremen.",
+      "description_text_blocks": [
+        "Agent icon: Fremen",
+        "Combat space",
+        "Gain one Influence with the Fremen.",
+        "Gain 1 water."
+      ],
+      "description_html": "<div>Agent icon: Fremen&nbsp;<br>Combat space&nbsp;<br>Gain one Influence with the Fremen.&nbsp;<br><br>Gain 1 water.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-stillsuits.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-stillsuits.webp"
+    },
+    {
+      "id": 605,
+      "name": "Swordmaster",
+      "slug": "dune-imperium-swordmaster",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Landsraad",
+      "agent_text": "Cost: 8 Solari",
+      "reveal_text": "You may send an Agent here only once per game. Gain your Swordmaster (your third Agent that was placed next to the board during setup). Place it on your Leader. For the rest of the game (including this round) you have three Agents.",
+      "description_text_blocks": [
+        "Agent icon: Landsraad",
+        "Cost: 8 Solari",
+        "You may send an Agent here only once per game. Gain your Swordmaster (your third Agent that was placed next to the board during setup). Place it on your Leader. For the rest of the game (including this round) you have three Agents."
+      ],
+      "description_html": "<div>Agent icon: Landsraad<br>Cost: 8 Solari<br><br>You may send an Agent here only once per game. Gain your Swordmaster (your third Agent that was placed next to the board during setup). Place it on your Leader. For the rest of the game (including this round) you have three Agents.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-swordmaster.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-swordmaster.webp"
+    },
+    {
+      "id": 606,
+      "name": "Wealth",
+      "slug": "dune-imperium-wealth",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Emperor",
+      "agent_text": "Gain one Influence with the Emperor.",
+      "reveal_text": "Gain 2 Solari.",
+      "description_text_blocks": [
+        "Agent icon: Emperor",
+        "Gain one Influence with the Emperor.",
+        "Gain 2 Solari."
+      ],
+      "description_html": "<div>Agent icon: Emperor&nbsp;<br><br>Gain one Influence with the Emperor.&nbsp;<br>Gain 2 Solari.</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-wealth.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-wealth.webp"
+    },
+    {
+      "id": 607,
+      "name": "Hagga Basin",
+      "slug": "dune-imperium-hagga-basin",
+      "type": "location",
+      "expansion": "Dune: Imperium",
+      "physical_copies": 1,
+      "persuasion_cost": null,
+      "cost_text": "Agent icon: Spice Trade",
+      "agent_text": "Combat space",
+      "reveal_text": "Cost: 1 water",
+      "description_text_blocks": [
+        "Agent icon: Spice Trade",
+        "Combat space",
+        "Cost: 1 water",
+        "Gain 2 spice, plus any bonus spice accumulated here on the Maker icon."
+      ],
+      "description_html": "<div>Agent icon: Spice Trade<br>Combat space<br>Cost: 1 water<br><br>Gain 2 spice, plus any bonus spice accumulated here on the Maker icon.&nbsp;</div>",
+      "attributes": {},
+      "image": "https://dunecardshub.com/images/dune-imperium-location-hagga-basin.webp",
+      "thumbnail": "https://dunecardshub.com/thumbnails/dune-imperium-location-hagga-basin.webp"
+    }
+  ]
+}
