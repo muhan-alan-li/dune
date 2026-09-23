@@ -6,7 +6,36 @@ A online version of Dune: Imperium, the board game. Contains only the base game 
 
 This project uses Node 22 or a later version. Use npm workspaces.
 
-### 1. Install
+### Make targets
+
+A `Makefile` starts both servers for local development.
+
+```bash
+make help       # list all targets
+make dev        # start the backend and the frontend together
+make stop       # stop the dev servers
+make install    # install workspace dependencies
+make test       # run all tests
+make typecheck  # typecheck every package
+make build      # build every package
+make clean      # remove build output and dependencies
+```
+
+`make dev` starts the backend on port 3000 and the frontend on port 5173.
+Override the ports on the command line:
+
+```bash
+make dev PORT=4000 CLIENT_PORT=8080
+```
+
+Press Ctrl-C to stop both servers.
+Logs are written to `.dune-dev/backend.log` and `.dune-dev/frontend.log`.
+
+### Manual start
+
+Run these commands if you do not use Make.
+
+#### 1. Install
 
 Run this command one time at the repository root:
 
@@ -14,7 +43,7 @@ Run this command one time at the repository root:
 npm install
 ```
 
-### 2. Start the server
+#### 2. Start the server
 
 Build the shared package and the server, then start the server:
 
@@ -30,7 +59,7 @@ Set `PORT` to use a different port:
 PORT=4000 npm start --workspace @dune/server
 ```
 
-### 3. Start the client
+#### 3. Start the client
 
 Open a second terminal.
 Point the client at the server, then start the Vite development server:
@@ -56,12 +85,12 @@ Open the client in 3 or 4 browser windows or devices on the same network.
 
 ## Development commands
 
-Run these commands at the repository root:
+Run these commands at the repository root, or use the matching Make target:
 
 ```bash
-npm test        # build shared, then run all tests
+npm test            # build shared, then run all tests
 npm run typecheck   # typecheck every package
-npm run build   # build every package
+npm run build       # build every package
 ```
 
 ## Project layout
@@ -70,6 +99,7 @@ npm run build   # build every package
 shared/   shared contract: types, protocol, reject codes
 server/   pure rules engine, lobby, REST, and WebSocket layer
 client/   React user interface
+scripts/  dev and stop helper scripts
 data/     base card catalogue
 ```
 
