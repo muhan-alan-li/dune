@@ -2,6 +2,7 @@ import { describe, expect, expectTypeOf, it } from 'vitest';
 import type {
   BoardSpace,
   CardRef,
+  CombatView,
   GameLogEntry,
   GameState,
   LegalAction,
@@ -11,6 +12,7 @@ import type {
   PlayerId,
   PlayerState,
   Resources,
+  RevealView,
 } from './types.js';
 
 /**
@@ -177,6 +179,12 @@ describe('types contract', () => {
         foldspace: { cardKey: 'reserve-foldspace', count: 6 },
       },
       conflict: { card: { cardId: 'conflict-1', cardKey: 'conflict-arrakeen' } },
+      reveal: {
+        revealed: [{ cardId: 'reveal-1', cardKey: 'dune-imperium-dagger' }],
+        pendingPersuasion: 2,
+        combatStrengthPreview: 5,
+      },
+      combat: null,
       players: [ownerState, opponentState],
       legalActions: [],
       log: [logEntry],
@@ -191,6 +199,8 @@ describe('types contract', () => {
     expect(state.players[1]?.intrigueCount).toBe(2);
     expect(state.imperiumRow[0]?.ownerId).toBeUndefined();
     expectTypeOf<GameState['viewForPlayerId']>().toEqualTypeOf<PlayerId | null>();
+    expectTypeOf<GameState['reveal']>().toEqualTypeOf<RevealView>();
+    expectTypeOf<GameState['combat']>().toEqualTypeOf<CombatView | null>();
     expectTypeOf<PlayerState['hand']>().toEqualTypeOf<CardRef[] | null>();
     expectTypeOf<PlayerState['intrigueCards']>().toEqualTypeOf<CardRef[] | null>();
     expectTypeOf<GameState['gameId']>().toBeString();

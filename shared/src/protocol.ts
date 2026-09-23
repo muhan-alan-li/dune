@@ -9,7 +9,7 @@
  * - the action request and response
  */
 
-import type { GameId, GameState, Lobby, LobbyCode, PhaseId, PlayerId } from './types.js';
+import type { FactionId, GameId, GameState, Lobby, LobbyCode, PhaseId, PlayerId } from './types.js';
 import type { RejectCode } from './errors.js';
 
 /**
@@ -140,7 +140,11 @@ export type GameAction =
   /** Pass and take no more Agent turns. */
   | { kind: 'pass' }
   /** Confirm the Combat strength at the end of a Reveal turn. */
-  | { kind: 'confirmCombat' };
+  | { kind: 'confirmCombat' }
+  /** Select the Faction for a Conflict reward that grants Influence of choice. */
+  | { kind: 'chooseConflictInfluence'; faction: FactionId }
+  /** Advance an automatic Makers or Recall phase. */
+  | { kind: 'advancePhase' };
 
 /**
  * The response to one action.

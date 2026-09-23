@@ -210,7 +210,11 @@ export type LegalAction =
   /** Pass and take no more Agent turns. */
   | { kind: 'pass' }
   /** Confirm the Combat strength at the end of a Reveal turn. */
-  | { kind: 'confirmCombat' };
+  | { kind: 'confirmCombat' }
+  /** Select the Faction for an Influence-of-choice Conflict reward. */
+  | { kind: 'chooseConflictInfluence'; faction: FactionId }
+  /** Advance an automatic phase. */
+  | { kind: 'advancePhase' };
 
 /**
  * The state of one player during a game.
@@ -264,6 +268,38 @@ export interface PlayerState {
   hasMentat: boolean;
 }
 
+/** One public Combat strength entry. */
+export interface CombatStrengthView {
+  /** The player whose Combat strength is shown. */
+  playerId: PlayerId;
+  /** The player's current Combat strength. */
+  strength: number;
+}
+
+/** The public state of the Combat Intrigue window. */
+export interface CombatView {
+  /** The player who may act in the Combat Intrigue window. */
+  activePlayerId: PlayerId | null;
+  /** Players who may play Combat Intrigue cards or pass. */
+  eligiblePlayerIds: PlayerId[];
+  /** Number of passes since the last Combat Intrigue card was played. */
+  consecutivePasses: number;
+  /** True after all eligible players pass in sequence. */
+  windowResolved: boolean;
+  /** Public Combat strengths for all players. */
+  strengths: CombatStrengthView[];
+}
+
+/** The owner-only state of the current Reveal turn. */
+export interface RevealView {
+  /** The cards revealed by the owner. It is null for other players. */
+  revealed: CardRef[] | null;
+  /** The Persuasion available to the owner during this Reveal turn. */
+  pendingPersuasion: number | null;
+  /** The owner's current Combat strength preview. */
+  combatStrengthPreview: number | null;
+}
+
 /**
  * The state of a game.
  * The field viewForPlayerId marks the player for whom the state is made:
@@ -293,6 +329,10 @@ export interface GameState {
   reserve: ReserveView;
   /** The current Conflict. */
   conflict: ConflictView;
+  /** The current owner's Reveal details. Other views contain null fields. */
+  reveal: RevealView;
+  /** The public Combat Intrigue window, or null outside Combat. */
+  combat: CombatView | null;
   /** The state of each player. */
   players: PlayerState[];
   /** The legal actions for the current player. It is empty when the game is not in player turns. */
