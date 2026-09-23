@@ -65,6 +65,8 @@ export interface DefensiveDeployState {
  * When it is non-null the player has played a card and must choose a space.
  */
 export interface AgentTurnState {
+  /** The player who opened the Agent turn. */
+  playerId: PlayerId;
   /** The id of the card that was played. */
   playedCardId: string;
   /** The space the Agent will be sent to. It is null until chosen. */
@@ -107,20 +109,30 @@ export interface RevealTurnState {
   pendingReveal: EngineCardRef[];
 }
 
+/** A Conflict reward that needs an explicit player choice. */
+export interface PendingConflictReward {
+  /** The player who must resolve the reward. */
+  playerId: PlayerId;
+  /** The reward that needs an explicit choice. */
+  reward: import('./data/conflicts.js').ConflictReward;
+}
+
 /**
  * The state of the Combat phase.
  */
 export interface CombatState {
+  /** Rewards that need an explicit player choice before the phase can advance. */
+  pendingRewards?: PendingConflictReward[];
   /** The intrigue-card window inside Combat; null when the Combat is resolved. */
   intrigueWindow: {
     /** The player whose turn it is to play a Combat Intrigue or pass. */
-    currentPlayerId: PlayerId;
+    currentPlayerId: PlayerId | null;
     /** The count of consecutive passes. When it reaches the eligible count, resolve. */
     passesInARow: number;
     /** The players who have at least one troop in the Conflict. */
     eligible: PlayerId[];
   } | null;
-  /** True once rewards have been resolved and the Conflict card is discarded. */
+  /** True once the Combat Intrigue window has resolved. Rewards are not resolved yet. */
   resolved: boolean;
 }
 
