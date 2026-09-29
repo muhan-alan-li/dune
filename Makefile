@@ -43,7 +43,7 @@ backend: install ## Start the backend on PORT (default 3000).
 
 frontend: install ## Start the frontend on CLIENT_PORT (default 5173).
 	@echo "Frontend: http://localhost:$(CLIENT_PORT)"
-	VITE_API_URL=$(API_URL) $(NPM) run dev --workspace @dune/client -- --port $(CLIENT_PORT)
+	API_URL=$(API_URL) $(NPM) run dev --workspace @dune/client -- --port $(CLIENT_PORT)
 
 # Start the backend and the frontend together. `scripts/dev.sh` runs both
 # servers, writes logs to $(RUN_DIR), and stops them on Ctrl-C. Use `make stop`

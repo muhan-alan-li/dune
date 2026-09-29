@@ -63,7 +63,7 @@ env PORT="${PORT}" HOST="${HOST}" "${NPM}" start --workspace @dune/server \
   > "${RUN_DIR}/backend.log" 2>&1 &
 BACKEND_PID=$!
 
-env VITE_API_URL="${API_URL}" "${NPM}" run dev --workspace @dune/client -- --port "${CLIENT_PORT}" \
+env API_URL="${API_URL}" "${NPM}" run dev --workspace @dune/client -- --port "${CLIENT_PORT}" \
   > "${RUN_DIR}/frontend.log" 2>&1 &
 FRONTEND_PID=$!
 

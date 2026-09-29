@@ -62,24 +62,31 @@ PORT=4000 npm start --workspace @dune/server
 #### 3. Start the client
 
 Open a second terminal.
-Point the client at the server, then start the Vite development server:
+Start the Vite development server. It forwards API requests to the server:
 
 ```bash
-VITE_API_URL=http://localhost:3000 npm run dev --workspace @dune/client
+npm run dev --workspace @dune/client
 ```
 
 Open `http://localhost:5173` in a browser.
 
-If the server uses a different port, change `VITE_API_URL` to match.
+If the server uses a different port, set `API_URL` to match:
+
+```bash
+API_URL=http://localhost:4000 npm run dev --workspace @dune/client
+```
 
 ### 4. Play a local game
 
 The game needs 3 or 4 players.
-Open the client in 3 or 4 browser windows or devices on the same network.
+Open the client in 3 or 4 new browser tabs, windows, or devices on the same network.
+Each tab has its own player token. In each tab, open the client URL and create or join a lobby.
+For another device, use the server machine IP address with the client port.
+Keep one backend server running for all players. A server restart removes all rooms.
 
 1. In the first window, select a display name and create a lobby.
 2. In each other window, select a display name and join with the lobby code.
-3. As host, set the color and the leader of each player.
+3. Each player selects a color and a leader.
 4. Each player selects Ready.
 5. The host starts the game.
 
