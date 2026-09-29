@@ -5,17 +5,190 @@ import type { PlayerColor } from '@dune/shared';
 import { GameApi } from '../api/GameApi';
 import { useSession } from '../state/SessionContext';
 import { Button, Panel, StatusPill } from '../components/UI';
-const leaders = [{ cardId: 'paul', cardKey: 'paul-atreides', name: 'Paul Atreides' }, { cardId: 'baron', cardKey: 'baron-harkonnen', name: 'Baron Harkonnen' }, { cardId: 'helena', cardKey: 'helena-richese', name: 'Helena Richese' }, { cardId: 'ilban', cardKey: 'count-ilban', name: 'Count Ilban' }];
-export function LobbyView(): React.ReactElement { const { code = '' } = useParams(); const navigate = useNavigate(); const session = useSession(); const [error, setError] = useState(''); const lobby = session.lobby;
-  useEffect(() => {
-    let active = true;
-    const refresh = (): void => { GameApi.getLobby(code).then((latest) => { if (active) session.setLobby(latest); }).catch((cause) => { if (active) setError(cause instanceof Error ? cause.message : 'Lobby unavailable.'); }); };
-    if (!lobby || lobby.code !== code) refresh();
-    const timer = window.setInterval(refresh, 2000);
-    return () => { active = false; window.clearInterval(timer); };
-  }, [code, lobby, session.setLobby]);
-  useEffect(() => { if (lobby?.gameId) navigate(`/game/${lobby.gameId}`); }, [lobby?.gameId, navigate]);
-  async function change(action: () => Promise<unknown>): Promise<void> { try { setError(''); await action(); const latest = await GameApi.getLobby(code); session.setLobby(latest); } catch (cause) { setError(cause instanceof Error ? cause.message : 'The lobby action failed.'); } }
-  if (!lobby) return <main className="shell"><Panel title="Lobby"><p>Loading lobby…</p>{error && <p className="error">{error}</p>}</Panel></main>;
-  const me = lobby.players.find((player) => player.id === session.playerId); return <main className="shell lobby"><header className="topbar"><div><p className="eyebrow">Private lobby</p><h1>{lobby.code}</h1></div><StatusPill good>{lobby.players.length}/{lobby.maxPlayers} players</StatusPill></header><Panel title="Houses assembling"><div className="player-list">{lobby.players.map((player) => <article className="player-row" key={player.id}><div className={`avatar ${player.color ?? ''}`}>{player.name.slice(0, 1).toUpperCase()}</div><div className="player-main"><strong>{player.name}</strong><span>{player.isHost ? 'Host · ' : ''}{player.isConnected ? 'Online' : 'Waiting'}</span></div>{player.id === session.playerId ? <div className="lobby-controls"><select aria-label="Choose color" value={player.color ?? ''} onChange={(event) => void change(() => GameApi.setColor(code, event.target.value as PlayerColor))}><option value="">Color</option>{(['red', 'blue', 'green', 'black'] as const).map((color) => <option key={color} value={color}>{color}</option>)}</select><select aria-label="Choose leader" value={player.leader?.cardKey ?? ''} onChange={(event) => { const leader = leaders.find((item) => item.cardKey === event.target.value); if (leader) void change(() => GameApi.setLeader(code, leader.cardId, leader.cardKey)); }}><option value="">Leader</option>{leaders.map((leader) => <option key={leader.cardKey} value={leader.cardKey}>{leader.name}</option>)}</select><Button variant={player.isReady ? 'quiet' : 'primary'} onClick={() => void change(() => GameApi.setReady(code, !player.isReady))}>{player.isReady ? 'Ready ✓' : 'Ready'}</Button></div> : <>{player.isReady && <StatusPill good>Ready</StatusPill>}{me?.isHost && <Button variant="danger" onClick={() => void change(() => GameApi.removePlayer(code, player.id))}>Remove</Button>}</>}</article>)}</div></Panel>{error && <p className="error" role="alert">{error}</p>}<Panel className="lobby-footer"><p className="muted">Share this code with your fellow House players.</p>{me?.isHost && <Button onClick={() => void change(async () => { const started = await GameApi.startGame(code); session.setLobby(started); })} disabled={lobby.players.length < lobby.minPlayers || lobby.players.some((player) => !player.isReady || !player.color || !player.leader)}>Start game</Button>}</Panel></main>;
+const leaders = [
+    { cardId: 'paul', cardKey: 'paul-atreides', name: 'Paul Atreides' },
+    { cardId: 'baron', cardKey: 'baron-harkonnen', name: 'Baron Harkonnen' },
+    { cardId: 'helena', cardKey: 'helena-richese', name: 'Helena Richese' },
+    { cardId: 'ilban', cardKey: 'count-ilban', name: 'Count Ilban' },
+];
+export function LobbyView(): React.ReactElement {
+    const { code = '' } = useParams();
+    const navigate = useNavigate();
+    const session = useSession();
+    const [error, setError] = useState('');
+    const lobby = session.lobby;
+    useEffect(() => {
+        let active = true;
+        const refresh = (): void => {
+            GameApi.getLobby(code)
+                .then((latest) => {
+                    if (active) session.setLobby(latest);
+                })
+                .catch((cause) => {
+                    if (active)
+                        setError(cause instanceof Error ? cause.message : 'Lobby unavailable.');
+                });
+        };
+        if (!lobby || lobby.code !== code) refresh();
+        const timer = window.setInterval(refresh, 2000);
+        return () => {
+            active = false;
+            window.clearInterval(timer);
+        };
+    }, [code, lobby, session.setLobby]);
+    useEffect(() => {
+        if (lobby?.gameId) navigate(`/game/${lobby.gameId}`);
+    }, [lobby?.gameId, navigate]);
+    async function change(action: () => Promise<unknown>): Promise<void> {
+        try {
+            setError('');
+            await action();
+            const latest = await GameApi.getLobby(code);
+            session.setLobby(latest);
+        } catch (cause) {
+            setError(cause instanceof Error ? cause.message : 'The lobby action failed.');
+        }
+    }
+    if (!lobby)
+        return (
+            <main className="shell">
+                <Panel title="Lobby">
+                    <p>Loading lobby…</p>
+                    {error && <p className="error">{error}</p>}
+                </Panel>
+            </main>
+        );
+    const me = lobby.players.find((player) => player.id === session.playerId);
+    return (
+        <main className="shell lobby">
+            <header className="topbar">
+                <div>
+                    <p className="eyebrow">Private lobby</p>
+                    <h1>{lobby.code}</h1>
+                </div>
+                <StatusPill good>
+                    {lobby.players.length}/{lobby.maxPlayers} players
+                </StatusPill>
+            </header>
+            <Panel title="Houses assembling">
+                <div className="player-list">
+                    {lobby.players.map((player) => (
+                        <article className="player-row" key={player.id}>
+                            <div className={`avatar ${player.color ?? ''}`}>
+                                {player.name.slice(0, 1).toUpperCase()}
+                            </div>
+                            <div className="player-main">
+                                <strong>{player.name}</strong>
+                                <span>
+                                    {player.isHost ? 'Host · ' : ''}
+                                    {player.isConnected ? 'Online' : 'Waiting'}
+                                </span>
+                            </div>
+                            {player.id === session.playerId ? (
+                                <div className="lobby-controls">
+                                    <select
+                                        aria-label="Choose color"
+                                        value={player.color ?? ''}
+                                        onChange={(event) =>
+                                            void change(() =>
+                                                GameApi.setColor(
+                                                    code,
+                                                    event.target.value as PlayerColor,
+                                                ),
+                                            )
+                                        }
+                                    >
+                                        <option value="">Color</option>
+                                        {(['red', 'blue', 'green', 'black'] as const).map(
+                                            (color) => (
+                                                <option key={color} value={color}>
+                                                    {color}
+                                                </option>
+                                            ),
+                                        )}
+                                    </select>
+                                    <select
+                                        aria-label="Choose leader"
+                                        value={player.leader?.cardKey ?? ''}
+                                        onChange={(event) => {
+                                            const leader = leaders.find(
+                                                (item) => item.cardKey === event.target.value,
+                                            );
+                                            if (leader)
+                                                void change(() =>
+                                                    GameApi.setLeader(
+                                                        code,
+                                                        leader.cardId,
+                                                        leader.cardKey,
+                                                    ),
+                                                );
+                                        }}
+                                    >
+                                        <option value="">Leader</option>
+                                        {leaders.map((leader) => (
+                                            <option key={leader.cardKey} value={leader.cardKey}>
+                                                {leader.name}
+                                            </option>
+                                        ))}
+                                    </select>
+                                    <Button
+                                        variant={player.isReady ? 'quiet' : 'primary'}
+                                        onClick={() =>
+                                            void change(() =>
+                                                GameApi.setReady(code, !player.isReady),
+                                            )
+                                        }
+                                    >
+                                        {player.isReady ? 'Ready ✓' : 'Ready'}
+                                    </Button>
+                                </div>
+                            ) : (
+                                <>
+                                    {player.isReady && <StatusPill good>Ready</StatusPill>}
+                                    {me?.isHost && (
+                                        <Button
+                                            variant="danger"
+                                            onClick={() =>
+                                                void change(() =>
+                                                    GameApi.removePlayer(code, player.id),
+                                                )
+                                            }
+                                        >
+                                            Remove
+                                        </Button>
+                                    )}
+                                </>
+                            )}
+                        </article>
+                    ))}
+                </div>
+            </Panel>
+            {error && (
+                <p className="error" role="alert">
+                    {error}
+                </p>
+            )}
+            <Panel className="lobby-footer">
+                <p className="muted">Share this code with your fellow House players.</p>
+                {me?.isHost && (
+                    <Button
+                        onClick={() =>
+                            void change(async () => {
+                                const started = await GameApi.startGame(code);
+                                session.setLobby(started);
+                            })
+                        }
+                        disabled={
+                            lobby.players.length < lobby.minPlayers ||
+                            lobby.players.some(
+                                (player) => !player.isReady || !player.color || !player.leader,
+                            )
+                        }
+                    >
+                        Start game
+                    </Button>
+                )}
+            </Panel>
+        </main>
+    );
 }
