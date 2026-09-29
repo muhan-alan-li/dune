@@ -10,17 +10,17 @@ const NAME_KEY = 'dune.displayName';
 const API_ROOT = import.meta.env.VITE_API_URL ?? '';
 
 export class GameApi {
-  static savedToken(): string { return localStorage.getItem(TOKEN_KEY) ?? ''; }
+  static savedToken(): string { return sessionStorage.getItem(TOKEN_KEY) ?? ''; }
   static savedName(): string { return localStorage.getItem(NAME_KEY) ?? ''; }
   static rememberSession(session: SessionCredentials, name?: string): void {
-    localStorage.setItem(TOKEN_KEY, session.token);
+    sessionStorage.setItem(TOKEN_KEY, session.token);
     if (name !== undefined) localStorage.setItem(NAME_KEY, name);
   }
-  static clearSession(): void { localStorage.removeItem(TOKEN_KEY); }
+  static clearSession(): void { sessionStorage.removeItem(TOKEN_KEY); }
 
   private static async request<T>(path: string, options: RequestInit = {}): Promise<T> {
     const headers = new Headers(options.headers);
-    headers.set('Content-Type', 'application/json');
+    if (options.body != null) headers.set('Content-Type', 'application/json');
     const token = GameApi.savedToken();
     if (token) headers.set('Authorization', `Bearer ${token}`);
     const response = await fetch(`${API_ROOT}${path}`, { ...options, headers });
