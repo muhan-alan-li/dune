@@ -10,12 +10,7 @@
 import type { FactionId } from '@dune/shared';
 
 /** The four Factions in a fixed order. */
-export const FACTIONS: readonly FactionId[] = [
-  'emperor',
-  'spacingGuild',
-  'beneGesserit',
-  'fremen',
-];
+export const FACTIONS: readonly FactionId[] = ['emperor', 'spacingGuild', 'beneGesserit', 'fremen'];
 
 /**
  * The Sell Melange exchange chart.
@@ -26,10 +21,10 @@ export const FACTIONS: readonly FactionId[] = [
  * TODO: verify rows 2, 4, 5.
  */
 export const SELL_MELANGE_CHART: Readonly<Record<number, number>> = {
-  2: 4, // TODO: verify
-  3: 8,
-  4: 10, // TODO: verify
-  5: 13, // TODO: verify
+    2: 4, // TODO: verify
+    3: 8,
+    4: 10, // TODO: verify
+    5: 13, // TODO: verify
 };
 
 /** The history of a player: the order of the player turns. */
@@ -56,10 +51,10 @@ export const ALLIANCE_VICTORY_POINTS = 1; // Verified: one Victory Point, per ru
  * TODO: verify each value.
  */
 export const INFLUENCE_LEVEL_FOUR_BONUS: Record<FactionId, string> = {
-  emperor: 'gain 2 Solari',
-  spacingGuild: 'gain 2 spice',
-  beneGesserit: 'draw 1 Intrigue card',
-  fremen: 'gain 1 water',
+    emperor: 'gain 2 Solari',
+    spacingGuild: 'gain 2 spice',
+    beneGesserit: 'draw 1 Intrigue card',
+    fremen: 'gain 1 water',
 };
 
 /** The Score value that ends the game at the end of a round. */
@@ -73,7 +68,7 @@ export const STARTING_RESOURCES = { solari: 0, spice: 0, water: 1, persuasion: 0
  * In a 4-player game the marker starts on 1. Otherwise it starts on 0.
  */
 export function startingScore(playerCount: number): number {
-  return playerCount === 4 ? 1 : 0;
+    return playerCount === 4 ? 1 : 0;
 }
 
 /** The number of troops in the garrison at setup. */
