@@ -1,11 +1,25 @@
 {
   "name": "dune-imperium-online",
   "private": true,
-  "workspaces": ["shared", "server", "client"],
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ],
   "scripts": {
     "build": "npm run build --workspace @dune/shared && npm run build --workspace @dune/server && npm run build --workspace @dune/client",
     "typecheck": "npm run build --workspace @dune/shared && npm run typecheck --workspace @dune/shared && npm run typecheck --workspace @dune/server && npm run typecheck --workspace @dune/client",
+    "lint": "eslint \"**/*.{ts,tsx}\" && npm run format:check",
+    "format:check": "prettier --check \"**/*.{ts,tsx}\"",
     "test": "npm run build --workspace @dune/shared && npm run test --workspace @dune/shared && npm run test --workspace @dune/server && npm run test --workspace @dune/client"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9",
+    "typescript-eslint": "^8.71.0"
+  }
 }
